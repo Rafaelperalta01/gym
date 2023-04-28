@@ -1,0 +1,173 @@
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-1{
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+.main-img1{
+    margin-top: -100px;
+    background-color: transparent;
+    margin-left: 50px;
+    height: 350px;
+}
+
+.main-parrafo1{
+    margin-top: 150px;
+    margin-left: 100vh;
+    line-height: 1.6;
+    width: 700px;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    animation: flotar 3s infinite;
+}
+@keyframes flotar {
+    0%{transform: translateY(0)}
+    50%{transform: translateY(40px)}
+    100%{transform: translateY(0)}
+}
+
+.main-2{
+    height: 118vh;
+    width: 100%;
+    clip-path: polygon(51% 5%, 83% 10%, 100% 0, 100% 100%, 0 100%, 0 0, 25% 15%);
+    background-image: linear-gradient(15deg,#000000,#2f2e33) ;
+    background-attachment: fixed;
+}
+.circulo{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 200px;
+    display: flex;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-image: linear-gradient(15deg,#130f44,#a9a6ff) ;
+    z-index: -1;
+}
+.main-img2 ,.main-img4{
+    position: relative;
+    margin-left: 100px;
+    width: 200px;
+    margin-top: 300px;
+    transition: .8s;
+}
+#img3{
+    position: absolute;
+    width: 200px;
+    margin-top: 100px ;
+    transition: .8s;
+}
+.main-img2:hover, .main-img3:hover, .main-img4:hover{
+    transform: scale(1.2);
+}
+.main2-animacion{
+    float: right;
+    margin-right: 180px;
+    margin-top: -350px;
+}
+.main-parrafo2{
+    margin-left: 100px;
+    color: #fff;
+    margin-top: 150px;
+    line-height: 1.6;
+    width: 700px;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    animation: flotar 3s infinite;
+}
+.main-boton2{
+    height: 50px;
+    width: 190px;
+    margin-left: 240px;
+    margin-top: 600px;
+    border: 1px solid black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    background-color: #89b4d3;
+    transition: .5s;
+    cursor: pointer;
+}
+.main-boton2:hover {
+    background-image:linear-gradient(15deg,#09f,#7a53cc) ;
+    width: 370px;
+    color: white;
+    font-size: 18px;
+}
+.img-control{
+    position: absolute;
+    top: 1420px;
+    left: 500px;
+    width: 500px;
+    z-index: 10;
+    animation: moverControl 5s infinite;
+}
+@keyframes moverControl{
+    0%{transform: scale(1)}
+    50%{transform: scale(1.1)}
+    100%{transform: scale(1)}
+}
+.main3{
+    margin-top: -120px;
+    height: 190vh;
+    background-image: linear-gradient(15deg,#3cb0d0,#5b40c7) ;
+    clip-path: polygon(50% 10%, 100% 0, 100% 100%, 0 100%, 0 0);
+    text-align: center;
+}
+.main-parrafo3{
+    margin: auto;
+    font-size: 50px;
+    width: 70%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    margin-top: 400px;
+    font-weight: 100;
+    transition: .5s;
+}
+.main3-imgs{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+}
+.main3-imgs img {
+    height: 270px;
+    padding: 15px 25px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px black;
+    animation: flotar 5s infinite;
+    object-fit: scale-down;
+    transition: .8s;
+}
+.main3-imgs img:hover{
+    box-shadow: 15px 15px 20px black;
+}
+.main-parrafo4{
+    margin: auto;
+    margin-top: 160px;
+    line-height: 1.7;
+    font-size: 30px;
+    width: 70%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-weight: 100;
+}
+.main3-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 250px;
+}
