@@ -15,19 +15,25 @@ export default function Main(){
     return(
         <div className='main'>
             <div className='main-1'>
-                <p className='main-parrafo1'>¡Bienvenido a Cell Market, el lugar perfecto para encontrar el celular que necesitas!</p>
+                
                 <img className='main-img1' src={img} />
-                <Btn mensaje='Ir a Celulares'/>
+                <div className='parrafo-btn'>
+                    <p className='main-parrafo1'>¡Bienvenido a Cell Market, el lugar perfecto para encontrar el celular que necesitas!</p>
+                    <Btn mensaje='Ir a Celulares' margintop={100}/>
+                </div>
+                
+                
             </div>
             <div className='main-2'>
                 <p className='main-parrafo2'>¿Buscas un equipo confiable para tus proyectos? ¡Tenemos los mejores notebooks para ti!</p>
                 <div className='main2-animacion'>
-                    <div className='circulo'></div>
-                    <img className='main-img2' src={img2}/>
-                    <img className='main-img3' id='img3' src={img3}/>
-                    <img className='main-img4' src={img4}/>
+                    <div className='circulo'>
+                        <img className='main-img2' src={img2}/>
+                        <img className='main-img3' id='img3' src={img3}/>
+                        <img className='main-img4' src={img4}/>
+                    </div>
                 </div>
-                <Btn mensaje='Ir a Notebooks' margintop={180}/>
+                <Btn mensaje='Ir a Notebooks' margintop={250}/>
             </div>
             <img className='img-control' src={imgcontrol} alt="" />
             <div className='main3'>

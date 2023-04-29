@@ -3,27 +3,27 @@
     justify-content: center;
     flex-direction: column;
 }
-
 .main-1{
+    display: flex;
     height: 100vh;
     width: 100%;
     background-color: #fff;
     padding: 0;
     margin: 0;
 }
-
 .main-img1{
-    margin-top: -100px;
-    background-color: transparent;
+    display: flex;
+    margin: 35vh 3vw 0 10vw;
     margin-left: 50px;
     height: 350px;
 }
-
+.parrafo-btn{
+    height: 60vh;
+    width: 50vw;
+    margin: 17vh 10vh 0 0;
+}
 .main-parrafo1{
-    margin-top: 150px;
-    margin-left: 100vh;
     line-height: 1.6;
-    width: 700px;
     font-size: 45px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
@@ -36,43 +36,36 @@
 }
 
 .main-2{
-    height: 118vh;
+    height: 115vh;
     width: 100%;
     clip-path: polygon(51% 5%, 83% 10%, 100% 0, 100% 100%, 0 100%, 0 0, 25% 15%);
     background-image: linear-gradient(15deg,#000000,#2f2e33) ;
     background-attachment: fixed;
 }
 .circulo{
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 200px;
     display: flex;
+    float: right;
     height: 300px;
     width: 300px;
     border-radius: 50%;
     background-image: linear-gradient(15deg,#130f44,#a9a6ff) ;
-    z-index: -1;
+}
+.main2-animacion{
+    margin: -20vh 10vw 0 0;
 }
 .main-img2 ,.main-img4{
-    position: relative;
-    margin-left: 100px;
-    width: 200px;
-    margin-top: 300px;
+    object-fit: scale-down;
+    margin-left: -5vw;
+    height: 110px;
     transition: .8s;
 }
 #img3{
-    position: absolute;
-    width: 200px;
-    margin-top: 100px ;
+    height: 170px;
+    margin-top: 25vh;
     transition: .8s;
 }
 .main-img2:hover, .main-img3:hover, .main-img4:hover{
     transform: scale(1.2);
-}
-.main2-animacion{
-    float: right;
-    margin-right: 180px;
-    margin-top: -350px;
 }
 .main-parrafo2{
     margin-left: 100px;
