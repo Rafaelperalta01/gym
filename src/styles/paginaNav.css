@@ -1,23 +1,23 @@
 .nav{
-    margin-top: 3.5%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .ul{
-    
+    margin: 70px 0 0 0 ;
     justify-content: space-evenly;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
-    background-image: linear-gradient(15deg,#19199f,#3a00f9) ;
+    background-image: linear-gradient(125deg,#431d75,#8e2da1) ;
     width: 65%;
     display: flex;
     list-style: none;
-    gap: 10em;
+    gap: 10%;
     padding: 1em 2em;
     border-radius: 0 0 20px 20px;
 }
 .pag-li{
+    color: white;
     text-decoration: none;
 }
