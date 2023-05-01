@@ -1,0 +1,19 @@
+.caja{
+    height: 400px;
+    width: 350px;
+    margin: 3%;
+    background-color: aliceblue;
+    outline: 1px solid black;
+    border-radius: 8px;
+    transition: .5s;
+}
+
+@keyframes flotar{
+    0%{transform: translateY(0);}
+    50%{transform: translateY(10px);}
+    0%{transform: translateY(0);}
+}
+.caja:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 0px 15px black;
+}

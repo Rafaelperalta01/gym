@@ -7,8 +7,8 @@ export default function Notebooks(){
         <>
             <Header />
             <PaginaNav link1={'Lenovo'}
-            link2={'Macs'}
-            link3={'Asus'}
+            link2={'MacBooks'}
+            link3={'HP'}
             link4={'Samsung'}
             />
         </>
