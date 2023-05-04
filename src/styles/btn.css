@@ -10,6 +10,7 @@
     font-size: 18px;
     padding: 10px 25px;
     text-decoration: none;
+    background-color: rgb(233, 233, 233);
     color: black;
     transition: .5s;
     cursor: pointer;

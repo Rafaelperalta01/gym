@@ -19,7 +19,7 @@
     list-style: none;
     gap: 10%;
     padding: 1em 2em;
-    border-radius: 0 0 10px 10px;
+    border-radius: 0 0 5px 5px;
     outline: 1px solid white;
 }
 .pag-li{
