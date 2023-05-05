@@ -4,7 +4,7 @@
     margin: 3%;
     background-color: aliceblue;
     outline: 1px solid black;
-    transition: .5s;
+    transition: .5s; 
 }
 
 @keyframes flotar{
@@ -13,8 +13,8 @@
     0%{transform: translateY(0);}
 }
 .caja:hover{
-    transform: scale(1.01);
-    box-shadow: 0px 0px 5px black;
+    transform: scale(1.02);
+    box-shadow: 0px 0px 20px black;
 }
 .img{
     height: 55%;
@@ -23,8 +23,14 @@
     margin: 0 auto;
 }
 .detalles {
+    border: none;
     height: 140px;
-    background-color: blue;
+    background-color: #284596;
+    transition: all .7s;
+}
+.caja:hover .detalles {
+    transition: .7s;
+    background-image: linear-gradient(90deg,#5858be,#6683d1) ;
 }
 .precio-antes{
     color: rgb(96, 9, 9);
@@ -35,7 +41,6 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .nombre-producto {
-    margin-bottom: -10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 }

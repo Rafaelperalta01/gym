@@ -1,6 +1,6 @@
 import Header from "../Components/header";
 import PaginaNav from "../Components/paginaNav";
-
+import PaginaBody from "../Components/paginaBody";
 
 export default function Notebooks(){
     return(
@@ -11,6 +11,7 @@ export default function Notebooks(){
             link3={'HP'}
             link4={'Samsung'}
             />
+            <PaginaBody />
         </>
     );
 }
