@@ -16,6 +16,8 @@ function App() {
           <Route path='/celulares' element={<Celulares />} />
           <Route path='/notebooks' element={<Notebooks />} />
           <Route path='/juegos' element={<Juegos />} />
+          <Route path="/celulares/:marca" element={<Home />} />
+          <Route path="/notebooks/:marca" element={<Home />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
     </div>

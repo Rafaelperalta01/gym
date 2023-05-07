@@ -1,18 +1,46 @@
-[
+{
+  "productos": [
     {
-        "oldprecio" : "300",
-        "newprecio": "250"
+      "nombre": "auriculares",
+      "oldprecio": 300,
+      "newprecio": 180
     },
     {
-        "oldprecio" : "1300",
-        "newprecio": "2250"
+      "nombre": "celular",
+      "oldprecio": 1000,
+      "newprecio": 700
     },
     {
-        "oldprecio" : "3000",
-        "newprecio": "2050"
+      "nombre": "notebook",
+      "oldprecio": 2000,
+      "newprecio": 1500
     },
     {
-        "oldprecio" : "1000",
-        "newprecio": "800"
+      "nombre": "notebook",
+      "oldprecio": 2000,
+      "newprecio": 1500
     }
-]
+  ],
+  "notebooks":[
+    {
+      "nombre": "Lenovo",
+      "oldprecio": 300,
+      "newprecio": 180
+    },
+    {
+      "nombre": "HP",
+      "oldprecio": 1000,
+      "newprecio": 700
+    },
+    {
+      "nombre": "Mac",
+      "oldprecio": 2000,
+      "newprecio": 1500
+    },
+    {
+      "nombre": "Asus",
+      "oldprecio": 2000,
+      "newprecio": 1500
+    }
+  ]
+}

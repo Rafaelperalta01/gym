@@ -31,7 +31,7 @@
 }
 @keyframes flotar {
     0%{transform: translateY(0)}
-    50%{transform: translateY(40px)}
+    50%{transform: translateY(-60px)}
     100%{transform: translateY(0)}
 }
 
@@ -106,7 +106,7 @@
     left: 500px;
     width: 500px;
     z-index: 10;
-    animation: moverControl 5s infinite;
+    animation: moverControl 4s infinite;
 }
 @keyframes moverControl{
     0%{transform: scale(1)}

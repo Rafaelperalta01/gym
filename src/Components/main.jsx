@@ -8,6 +8,7 @@ import imgControl2 from '../images/imagenesMain/control2.png';
 import imgAuris from '../images/imagenesMain/auris.png';
 import imgCamara from '../images/imagenesMain/camara.png';
 import Btn from './btn-main';
+import { Link } from 'react-router-dom';
 
 export default function Main(){
 
@@ -19,7 +20,7 @@ export default function Main(){
                 <img className='main-img1' src={img} />
                 <div className='parrafo-btn'>
                     <p className='main-parrafo1'>¡Bienvenido a Cell Market, el lugar perfecto para encontrar el celular que necesitas!</p>
-                    <Btn mensaje='Ir a Celulares' margintop={100}/>
+                    <Link to={'/celulares'}><Btn mensaje='Ir a Celulares' margintop={100}/></Link>
                 </div>
                 
                 
@@ -33,7 +34,7 @@ export default function Main(){
                         <img className='main-img4' src={img4}/>
                     </div>
                 </div>
-                <Btn mensaje='Ir a Notebooks' margintop={250}/>
+                <Link to={'/notebooks'}><Btn mensaje='Ir a Notebooks' margintop={250}/></Link>
             </div>
             <img className='img-control' src={imgcontrol} alt="" />
             <div className='main3'>

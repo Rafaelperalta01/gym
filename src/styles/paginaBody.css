@@ -1,7 +1,8 @@
 .PaginaBody{
     margin-top: -65px;
-    padding: 0 10%;
-    background-image: linear-gradient(15deg,#af7f53,#6854c0,#2f32f0) ;
+    padding: 0 5%;
+    background-color: aliceblue;
+    /* background-image: linear-gradient(15deg,#4307bb,#6854c0,#2f32f0) ; */
 }
 .pagina-body{
     display: flex;
@@ -11,6 +12,6 @@
     width: 100%;
     padding-top: 5%;
     
-    
+
     /* background-image: linear-gradient(#3125ff,#ff555b); */
 }
