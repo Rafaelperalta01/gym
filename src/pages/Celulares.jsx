@@ -5,16 +5,22 @@ import PaginaNav from "../Components/paginaNav";
 
 
 export default function Celulares(){
+
+    const celulares = 'celulares'
+
     return(
         <>
         
             <Header />
-            <PaginaNav link1={'Iphone'}
+            <PaginaNav 
+            pagina={'celulares'}
+            link1={'Iphone'}
             link2={'Motorola'}
             link3={'Samsung'}
             link4={'LG'}
             />        
-            <PaginaBody />
+            <PaginaBody  elementos={celulares}
+            />
         </>
         
     );

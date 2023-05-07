@@ -1,5 +1,5 @@
 {
-  "productos": [
+  "celulares": [
     {
       "nombre": "auriculares",
       "oldprecio": 300,
@@ -9,6 +9,16 @@
       "nombre": "celular",
       "oldprecio": 1000,
       "newprecio": 700
+    },
+    {
+      "nombre": "notebook",
+      "oldprecio": 2000,
+      "newprecio": 1500
+    },
+    {
+      "nombre": "notebook",
+      "oldprecio": 2000,
+      "newprecio": 1500
     },
     {
       "nombre": "notebook",
