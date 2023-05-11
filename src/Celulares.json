@@ -1,56 +1,116 @@
 {
   "celulares": [
     {
-      "nombre": "auriculares",
+      "nombre": "celular1",
       "oldprecio": 300,
-      "newprecio": 180
+      "newprecio": 180,
+      "marca":"samsung"
     },
     {
-      "nombre": "celular",
+      "nombre": "celular2",
       "oldprecio": 1000,
-      "newprecio": 700
+      "newprecio": 700,
+      "marca":"samsung"
     },
     {
-      "nombre": "notebook",
+      "nombre": "celular3",
       "oldprecio": 2000,
       "newprecio": 1500
     },
     {
-      "nombre": "notebook",
+      "nombre": "celular4",
       "oldprecio": 2000,
       "newprecio": 1500
     },
     {
-      "nombre": "notebook",
+      "nombre": "celular5",
       "oldprecio": 2000,
       "newprecio": 1500
     },
     {
-      "nombre": "notebook",
+      "nombre": "celular6",
       "oldprecio": 2000,
       "newprecio": 1500
     }
   ],
   "notebooks":[
     {
-      "nombre": "Lenovo",
+      "nombre":"notebook1",
+      "marca": "Lenovo",
       "oldprecio": 300,
       "newprecio": 180
     },
     {
-      "nombre": "HP",
+      "nombre":"notebook2",
+      "marca":"HP",
       "oldprecio": 1000,
       "newprecio": 700
     },
     {
-      "nombre": "Mac",
+      "nombre":"notebook3",
+      "marca":"Mac",
       "oldprecio": 2000,
       "newprecio": 1500
     },
     {
-      "nombre": "Asus",
+      "nombre":"notebook4",
+      "oldprecio": 2000,
+      "newprecio": 1500,
+      "marca":"Samsung"
+    },
+    {
+      "nombre":"notebook5",
+      "oldprecio": 2000,
+      "newprecio": 1500,
+      "marca":"Samsung"
+    },
+    {
+      "nombre":"notebook4",
+      "oldprecio": 2000,
+      "newprecio": 1500,
+      "marca":"MacBook"
+    },
+    {
+      "nombre":"notebook5",
+      "oldprecio": 2000,
+      "newprecio": 1500,
+      "marca":"Samsung"
+    },
+    {
+      "nombre":"notebook2",
+      "marca":"HP",
+      "oldprecio": 1000,
+      "newprecio": 700
+    },
+    {
+      "nombre":"notebook3",
+      "marca":"Mac",
       "oldprecio": 2000,
       "newprecio": 1500
+    },
+    {
+      "nombre":"notebook4",
+      "oldprecio": 2000,
+      "newprecio": 1500,
+      "marca":"Samsung"
+    },
+    {
+      "nombre":"notebook5",
+      "oldprecio": 2000,
+      "newprecio": 1500,
+      "marca":"Samsung"
+    },
+    {
+      "nombre":"notebook4",
+      "oldprecio": 2000,
+      "newprecio": 1500,
+      "marca":"MacBook"
+    },
+    {
+      "nombre":"notebook5",
+      "oldprecio": 2000,
+      "newprecio": 1500,
+      "marca":"Samsung"
     }
   ]
 }

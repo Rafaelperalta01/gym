@@ -25,4 +25,8 @@
 .pag-li{
     color: white;
     text-decoration: none;
+    transition: .3s;
+}
+.pag-li:hover{
+    color: rgb(179, 179, 179);
 }

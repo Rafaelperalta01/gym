@@ -11,7 +11,7 @@ export default function Notebooks(){
             <PaginaNav 
             pagina={'notebooks'}
             link1={'Lenovo'}
-            link2={'MacBooks'}
+            link2={'MacBook'}
             link3={'HP'}
             link4={'Samsung'}
             />
