@@ -1,36 +1,46 @@
 {
   "celulares": [
     {
+      "id":"1",
       "nombre": "celular1",
       "oldprecio": 300,
       "newprecio": 180,
-      "marca":"samsung"
+      "marca":"Samsung"
     },
     {
+      "id":2,
       "nombre": "celular2",
       "oldprecio": 1000,
       "newprecio": 700,
-      "marca":"samsung"
+      "marca":"Samsung"
     },
     {
+      "id":3,
       "nombre": "celular3",
       "oldprecio": 2000,
-      "newprecio": 1500
+      "newprecio": 1500,
+      "marca":"Iphone"
     },
     {
+      "id":4,
       "nombre": "celular4",
       "oldprecio": 2000,
-      "newprecio": 1500
+      "newprecio": 1500,
+      "marca":"Motorola"
     },
     {
+      "id":5,
       "nombre": "celular5",
       "oldprecio": 2000,
-      "newprecio": 1500
+      "newprecio": 1500,
+      "marca":"LG"
     },
     {
+      "id":6,
       "nombre": "celular6",
       "oldprecio": 2000,
-      "newprecio": 1500
+      "newprecio": 1500,
+      "marca":"LG"
     }
   ],
   "notebooks":[
@@ -65,49 +75,49 @@
       "marca":"Samsung"
     },
     {
-      "nombre":"notebook4",
+      "nombre":"notebook6",
       "oldprecio": 2000,
       "newprecio": 1500,
       "marca":"MacBook"
     },
     {
-      "nombre":"notebook5",
+      "nombre":"notebook7",
       "oldprecio": 2000,
       "newprecio": 1500,
       "marca":"Samsung"
     },
     {
-      "nombre":"notebook2",
+      "nombre":"notebook8",
       "marca":"HP",
       "oldprecio": 1000,
       "newprecio": 700
     },
     {
-      "nombre":"notebook3",
+      "nombre":"notebook9",
       "marca":"Mac",
       "oldprecio": 2000,
       "newprecio": 1500
     },
     {
-      "nombre":"notebook4",
+      "nombre":"notebook10",
       "oldprecio": 2000,
       "newprecio": 1500,
       "marca":"Samsung"
     },
     {
-      "nombre":"notebook5",
+      "nombre":"notebook11",
       "oldprecio": 2000,
       "newprecio": 1500,
       "marca":"Samsung"
     },
     {
-      "nombre":"notebook4",
+      "nombre":"notebook12",
       "oldprecio": 2000,
       "newprecio": 1500,
       "marca":"MacBook"
     },
     {
-      "nombre":"notebook5",
+      "nombre":"notebook13",
       "oldprecio": 2000,
       "newprecio": 1500,
       "marca":"Samsung"

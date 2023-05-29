@@ -6,6 +6,7 @@ import Celulares from './pages/Celulares';
 import Notebooks from './pages/Notebooks';
 import Juegos from './pages/Juegos';
 import Marca from './pages/Marca';
+import Comprar from './pages/Comprar';
 
 
 
@@ -17,8 +18,10 @@ function App() {
           <Route path='/celulares' element={<Celulares />} />
           <Route path='/notebooks' element={<Notebooks />} />
           <Route path='/juegos' element={<Juegos />} />
-          <Route path="/celulares/:marca" element={<Celulares />} />
-          <Route path="/notebooks/:marca" element={<Marca />} />
+          <Route path="/celulares/:marca" element={<Marca ele={'celulares'} />} />
+          <Route path="/notebooks/:marca" element={<Marca ele={'notebooks'}/>} />
+          <Route path="/celulares/:marca/:id" element={<Comprar />} />
+          <Route path="/notebooks/:marca/:id" element={<Comprar/>} />
           <Route path='*' element={<NotFound />} />
         </Routes>
     </div>

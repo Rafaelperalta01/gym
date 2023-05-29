@@ -8,8 +8,9 @@ export default function PaginaBody({ elementos }) {
   return (
     <div className='PaginaBody'>
       <div className="pagina-body">
-        {productos[elementos] .map((producto) => 
-          <Caja nombre={producto.nombre}
+        {productos[elementos].map((producto) => 
+          <Caja id={producto.id}
+            nombre={producto.nombre}
             oldprecio={producto.oldprecio}
             newprecio={producto.newprecio}
           />

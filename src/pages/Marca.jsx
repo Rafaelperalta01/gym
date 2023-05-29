@@ -4,7 +4,7 @@ import Header from '../Components/header';
 import producto from '../Celulares.json';
 import Caja from '../Components/Caja';
 
-export default function Marca() {
+export default function Marca({ ele }) {
 
   const { marca } = useParams();
 
@@ -15,8 +15,9 @@ export default function Marca() {
         <h1 className='marca-h1'> {marca} </h1>
         <div className='caja-productos'>
           <div className='productos'>
-            {producto['notebooks'].filter(e => e.marca === marca ).map((producto) => 
-              <Caja nombre={producto.nombre}
+            {producto[`${ele}`].filter(e => e.marca === marca ).map((producto) => 
+              <Caja id={producto.id}
+              nombre={producto.nombre}
               oldprecio={producto.oldprecio}
               newprecio={producto.newprecio}
             />
