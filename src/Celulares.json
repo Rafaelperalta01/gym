@@ -5,7 +5,8 @@
       "nombre": "celular1",
       "oldprecio": 300,
       "newprecio": 180,
-      "marca":"Samsung"
+      "marca":"Samsung",
+      "img":"images/imagenesMain/auris.png"
     },
     {
       "id":"2",
