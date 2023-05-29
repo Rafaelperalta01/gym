@@ -6,16 +6,10 @@ export default function Caja(props){
 
     const url = window.location.pathname;
 
-        const producto = {
-            "nombre":props.nombre,
-            "oldprecio":props.oldprecio,
-            "newprecio":props.newprecio,
-            "id":props.id,
-        }
-
+    
     return(
         <div className="caja">
-            <img className='img' src={img} alt="" />
+            <img className='img' src={img}  />
             <div className='detalles'>
                 <h3 className='nombre-producto'>{props.nombre}</h3>
                 <p className='precio-antes'>Antes: $<del>{props.oldprecio}</del></p>
