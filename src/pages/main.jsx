@@ -40,17 +40,22 @@ export default function Main() {
 
     return (
         <div className='box-padre'>
-            <div className='main1' id='main1'>  
+            <div className='main1' id='main1'>
                 <div className='parrafos' data-aos="fade-down">
                     <h1>Espartans Gym</h1>
                     <p>"Tu cuerpo es tu inversión más valiosa. Únete a nosotros y comienza a cosechar los beneficios de una vida activa y saludable."</p>
                     <div className='btn-main1'>
                         <button>Comenzar ahora</button>
                     </div>
-                    
+
+                </div>
+                <div className="datos">
+                    <div className='dato'><p>+ 20 <br />Entrenadores</p></div>
+                    <div className='dato'><p>+ 800 <br />Miembros</p></div>
+                    <div className='dato'><p>+ 50 <br /> Programas</p></div>
                 </div>
             </div>
-            
+
             <div className="main2">
                 <div className='cont2' id='servs1' >
                     <h1 data-aos="fade-up">Nuestros <b>servicios</b></h1>
@@ -67,21 +72,21 @@ export default function Main() {
                 {
                     servicio === 'musculacion' && (
                         <>
-                        <div id='vermas' className='espacio'></div> {/*Div da espacio entre la caja y el nav, para que no se vea encimado*/}
-                        <div  className='vermas'>
-                            <div className='verMasMusc'>
-                                <a href="#servs1"><img src={close} className='img-close' onClick={cerrarVentana} alt="Cerrar Ventana" /></a>
-                                <div className='vermasbox'>
-                                    <div className='images'>
-                                        <a href="#servs1"><img src={close} className='img-close' onClick={cerrarVentana} alt="Cerrar Ventana" /></a>
-                                    </div>
-                                    <div className='vermas-cont'>
-                                        <h1>Musculación</h1>
-                                        <p>Nuestros servicios de musculación van más allá de levantar pesas; son una invitación a la transformación física y al empoderamiento personal. Desde rutinas personalizadas hasta un amplio abanico de máquinas de última generación, te proporcionamos todo lo que necesitas para alcanzar tus objetivos de fuerza y definición muscular.</p>
+                            <div id='vermas' className='espacio'></div> {/*Div da espacio entre la caja y el nav, para que no se vea encimado*/}
+                            <div className='vermas'>
+                                <div className='verMasMusc'>
+                                    <a href="#servs1"><img src={close} className='img-close' onClick={cerrarVentana} alt="Cerrar Ventana" /></a>
+                                    <div className='vermasbox'>
+                                        <div className='images'>
+                                            <a href="#servs1"><img src={close} className='img-close' onClick={cerrarVentana} alt="Cerrar Ventana" /></a>
+                                        </div>
+                                        <div className='vermas-cont'>
+                                            <h1>Musculación</h1>
+                                            <p>Nuestros servicios de musculación van más allá de levantar pesas; son una invitación a la transformación física y al empoderamiento personal. Desde rutinas personalizadas hasta un amplio abanico de máquinas de última generación, te proporcionamos todo lo que necesitas para alcanzar tus objetivos de fuerza y definición muscular.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
                         </>
                     )
 
@@ -89,68 +94,68 @@ export default function Main() {
                 {
                     servicio === 'cardio' && (
                         <>
-                        <div id='vermas' className='espacio'></div> {/*Div da espacio entre la caja y el nav, para que no se vea encimado*/}
-                        <div className='vermas'>
-                            <div className='verMasMusc'>
-                                <a href="#servs1"><img src={close} className='img-close' onClick={cerrarVentana} alt="Cerrar Ventana" /></a>
-                                <div className='vermasbox'>
-                                    <div className='images'>
-                                        <a href="#servs1"><img src={close} className='img-close' onClick={cerrarVentana} alt="Cerrar Ventana" /></a>
-                                    </div>
-                                    <div className='vermas-cont'>
-                                        <h1>Cardio</h1>
-                                        <p>Únete a nuestra comunidad de amantes del cardio, donde cada latido cuenta y cada sesión te acerca a un estado físico y mental óptimo. Experimenta cómo el cardio no solo mejora tu salud cardiovascular, sino que también libera la tensión diaria, fortalece tu resistencia y te impulsa hacia un estilo de vida activo y saludable.</p>
+                            <div id='vermas' className='espacio'></div> {/*Div da espacio entre la caja y el nav, para que no se vea encimado*/}
+                            <div className='vermas'>
+                                <div className='verMasMusc'>
+                                    <a href="#servs1"><img src={close} className='img-close' onClick={cerrarVentana} alt="Cerrar Ventana" /></a>
+                                    <div className='vermasbox'>
+                                        <div className='images'>
+                                            <a href="#servs1"><img src={close} className='img-close' onClick={cerrarVentana} alt="Cerrar Ventana" /></a>
+                                        </div>
+                                        <div className='vermas-cont'>
+                                            <h1>Cardio</h1>
+                                            <p>Únete a nuestra comunidad de amantes del cardio, donde cada latido cuenta y cada sesión te acerca a un estado físico y mental óptimo. Experimenta cómo el cardio no solo mejora tu salud cardiovascular, sino que también libera la tensión diaria, fortalece tu resistencia y te impulsa hacia un estilo de vida activo y saludable.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
                         </>
-                        
+
                     )
                 }
                 {
                     servicio === 'yoga' && (
                         <>
-                        <div id='vermas' className='espacio'></div> {/*Div da espacio entre la caja y el nav, para que no se vea encimado*/}
-                        <div className='vermas'>
-                            <div className='verMasMusc'>
-                                <a href="#servs1"><img src={close} className='img-close' onClick={cerrarVentana} alt="Cerrar Ventana" /></a>
-                                <div className='vermasbox'>
-                                    <div className='images'>
-                                        <a href="#servs1"><img src={close} className='img-close' onClick={cerrarVentana} alt="Cerrar Ventana" /></a>
-                                    </div>
-                                    <div className='vermas-cont'>
-                                        <h1>Yoga</h1>
-                                        <p>En este espacio sagrado, nuestros instructores certificados te guiarán a través de respiraciones conscientes, movimientos fluidos y la búsqueda de la paz interior. La filosofía del yoga se entrelaza con cada sesión, promoviendo la flexibilidad, el equilibrio y la conexión con tu yo más profundo.</p>
+                            <div id='vermas' className='espacio'></div> {/*Div da espacio entre la caja y el nav, para que no se vea encimado*/}
+                            <div className='vermas'>
+                                <div className='verMasMusc'>
+                                    <a href="#servs1"><img src={close} className='img-close' onClick={cerrarVentana} alt="Cerrar Ventana" /></a>
+                                    <div className='vermasbox'>
+                                        <div className='images'>
+                                            <a href="#servs1"><img src={close} className='img-close' onClick={cerrarVentana} alt="Cerrar Ventana" /></a>
+                                        </div>
+                                        <div className='vermas-cont'>
+                                            <h1>Yoga</h1>
+                                            <p>En este espacio sagrado, nuestros instructores certificados te guiarán a través de respiraciones conscientes, movimientos fluidos y la búsqueda de la paz interior. La filosofía del yoga se entrelaza con cada sesión, promoviendo la flexibilidad, el equilibrio y la conexión con tu yo más profundo.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
                         </>
-                        
+
                     )
 
                 }
                 {
                     servicio === 'crossfit' && (
                         <>
-                        <div id='vermas' className='espacio'></div> {/*Div da espacio entre la caja y el nav, para que no se vea encimado*/}
-                        <div className='vermas'>
-                            <div className='verMasMusc'>
-                                <a href="#servs1"><img src={close} className='img-close' onClick={cerrarVentana} alt="Cerrar Ventana" /></a>
-                                <div className='vermasbox'>
-                                    <div className='images'>
-                                        <a href="#servs1"><img src={close} className='img-close' onClick={cerrarVentana} alt="Cerrar Ventana" /></a>
-                                    </div>
-                                    <div className='vermas-cont'>
-                                        <h1>CrossFit</h1>
-                                        <p>En la sección de CrossFit, sumérgete en una experiencia única que redefine los límites de tu rendimiento físico y mental. Nuestros programas de CrossFit no solo son entrenamientos, son desafíos que te inspirarán a superar tus propios límites día tras día. Cada sesión está diseñada para construir fuerza, resistencia y agilidad.</p>
+                            <div id='vermas' className='espacio'></div> {/*Div da espacio entre la caja y el nav, para que no se vea encimado*/}
+                            <div className='vermas'>
+                                <div className='verMasMusc'>
+                                    <a href="#servs1"><img src={close} className='img-close' onClick={cerrarVentana} alt="Cerrar Ventana" /></a>
+                                    <div className='vermasbox'>
+                                        <div className='images'>
+                                            <a href="#servs1"><img src={close} className='img-close' onClick={cerrarVentana} alt="Cerrar Ventana" /></a>
+                                        </div>
+                                        <div className='vermas-cont'>
+                                            <h1>CrossFit</h1>
+                                            <p>En la sección de CrossFit, sumérgete en una experiencia única que redefine los límites de tu rendimiento físico y mental. Nuestros programas de CrossFit no solo son entrenamientos, son desafíos que te inspirarán a superar tus propios límites día tras día. Cada sesión está diseñada para construir fuerza, resistencia y agilidad.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
                         </>
-                        
+
                     )
 
                 }
@@ -161,9 +166,9 @@ export default function Main() {
                         <div className='caja'>
                             <div className="main3-parrafos">
 
-                                <div className='parrafos3' data-aos="zoom-in-right">
-                                    <h1>¿Por qué <b>elegirnos</b>?</h1>
-                                    <p>Nuestra atención es <b>personalizada</b>. Valoramos a cada miembro de nuestra comunidad y reconocemos la singularidad de cada <b>cuerpo</b>. Desde la creación de planes de entrenamiento adaptados hasta el seguimiento continuo de tu <b>progreso</b>, te brindamos una atención <b>individualizada</b> que marca la diferencia en tu experiencia fitness.</p>
+                                <div className='parrafos3'>
+                                    <h1 data-aos="fade-up">¿Por qué <b>elegirnos</b>?</h1>
+                                    <p data-aos="fade-up">Nuestra atención es <b>personalizada</b>. Valoramos a cada miembro de nuestra comunidad y reconocemos la singularidad de cada <b>cuerpo</b>. Desde la creación de planes de entrenamiento adaptados hasta el seguimiento continuo de tu <b>progreso</b>, te brindamos una atención <b>individualizada</b> que marca la diferencia en tu experiencia fitness.</p>
                                 </div>
                                 <div className='main3-cards'>
                                     <div data-aos="zoom-in-left">
@@ -172,11 +177,11 @@ export default function Main() {
                                     </div>
                                     <div data-aos="zoom-in-left">
                                         <img className='img-card3' src={machine} alt="Maquinas" />
-                                        <p className="title">+ de 60 máquinas última generación</p>
+                                        <p className="title">+ de 100 máquinas última generación</p>
                                     </div>
                                     <div data-aos="zoom-in-left">
                                         <img className='img-card3' src={miembros} alt="Miembros" />
-                                        <p className="title">+ de 300 miembros</p>
+                                        <p className="title">+ de 800 miembros</p>
                                     </div>
                                     <div data-aos="zoom-in-left">
                                         <img className='img-card3' src={nutricion} alt="Nutricion" />
@@ -214,7 +219,7 @@ export default function Main() {
                         <p className='parrafo-coachs' data-aos="fade-right" data-aos-duration="8000">En Spartans Gym, nuestros coaches son tu clave para el éxito fitness. Desde entrenamiento de fuerza hasta yoga, cada uno está comprometido a guiarte hacia tus metas. Descubre el impulso y apoyo que necesitas para alcanzar tu mejor versión. ¡Bienvenido a la excelencia en cada entrenamiento!</p>
                     </div>
                 </div>
-                
+
             </div>
             <div className='main6'>
                 <footer>

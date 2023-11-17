@@ -1,9 +1,10 @@
-.box-padre{
+.box-padre {
     height: auto;
     overflow: hidden;
     box-sizing: border-box;
     position: relative;
 }
+
 .main1 {
     display: flex;
     justify-content: center;
@@ -11,9 +12,10 @@
     text-align: center;
     flex-direction: column;
     padding: 105px 0;
-    height: calc(100vh - 100px) ;
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/fondofooter.jpg') center/cover no-repeat;
+    height: calc(100vh - 100px);
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.815)), url('../images/fondofooter.jpg') center/cover no-repeat;
 }
+
 .fotos-main1 {
     display: flex;
     list-style: none;
@@ -21,12 +23,7 @@
     gap: 30px;
     padding-top: 40px;
 }
-.fotos-main1 .cuadrito{
-    height: 40px;
-    width: 40px;
-    border: 1px solid white;
-}
-.parrafos{
+.parrafos {
     padding: 0 70px;
     margin-top: -30vh;
 }
@@ -42,10 +39,10 @@
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
-.btn-main1{
+.btn-main1 {
     padding-top: 10vh;
 }
-.parrafos button{
+.parrafos button {
     font-family: 'Montserrat', sans-serif;
     height: 35px;
     width: 180px;
@@ -55,13 +52,31 @@
     transition: .5s;
     cursor: pointer;
 }
-.parrafos button:hover{
+
+.parrafos button:hover {
     background-color: #be5600;
     width: 200px;
     color: white;
 }
+.main1 .datos {
+    margin-top: 100px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    text-align: center;
+}
+.main1 .datos .dato{
+    color: rgb(255, 255, 255);
+    height: auto;
+    width: auto;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
 
-@media screen and (max-width:610px){
+@media screen and (max-width:610px) {
     .parrafos h1 {
         margin-top: 70px;
         font-family: 'Oswald', sans-serif;
@@ -69,21 +84,35 @@
         font-weight: 400;
         font-size: 50px;
     }
+
     .parrafos p {
         margin-top: 30px;
         font-size: 12px;
         color: white;
         font-family: 'Montserrat', sans-serif;
     }
+    .main1 .datos {
+        padding: 0 20px;
+    }
+    .main1 .datos .dato{
+        font-size: 16px;
+    }
 }
-@media screen and (max-width:440px){
+
+@media screen and (max-width:440px) {
+    .parrafos {
+        padding: 20px;
+        margin-top: -30vh;
+    }
+
     .parrafos h1 {
         margin-top: 70px;
         font-family: 'Oswald', sans-serif;
         color: #ff7300;
         font-weight: 400;
-        font-size: 30px;
+        font-size: 40px;
     }
+
     .parrafos p {
         margin-top: 30px;
         font-size: 11px;
@@ -91,25 +120,35 @@
         color: white;
         font-family: 'Montserrat', sans-serif;
     }
-    .parrafos button{
+
+    .parrafos button {
         font-family: 'Montserrat', sans-serif;
         height: 30px;
         width: 150px;
+        margin-top: -60px;
         background-color: #ff7300;
         border: none;
         border-radius: 5px;
         transition: .5s;
         cursor: pointer;
     }
-    .parrafos button:hover{
+
+    .parrafos button:hover {
         font-family: 'Montserrat', sans-serif;
         background-color: #be5600;
         width: 150px;
-
         border: none;
         border-radius: 5px;
         transition: .5s;
         cursor: pointer;
+    }
+    .main1 .datos {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+    .main1 .datos .dato{
+        font-size: 16px;
     }
 }
 
@@ -118,34 +157,40 @@
 /* Main 2 : Nuestros servicios*/
 
 
-.main2{
+.main2 {
     padding: 70px 20px;
     height: auto;
     background-color: #222222;
     box-sizing: border-box;
 }
-.main2 .cont2 h1{
+
+.main2 .cont2 h1 {
     margin-top: -20px;
     text-align: center;
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
 }
-.cont2{
+
+.cont2 {
     text-align: center;
     padding: 0 5%;
 }
+
 .cont2 p {
     font-size: 14px;
     color: #a7a7a7;
     font-family: 'Montserrat', sans-serif;
 }
-.cont2 b{
+
+.cont2 b {
     color: #ff7300;
 }
-.espacio{
+
+.espacio {
     height: 60px;
 
 }
+
 .serv .contenedor {
     margin-top: 50px;
     display: flex;
@@ -155,14 +200,16 @@
     flex-wrap: wrap;
     list-style: none;
 }
-.serv .contenedor #servicio{
+
+.serv .contenedor #servicio {
     height: 250px;
     width: 250px;
     border-radius: 0 20px 0 20px;
     background-color: azure;
     box-sizing: border-box;
 }
-.serv .contenedor #servicio p{
+
+.serv .contenedor #servicio p {
     color: white;
     font-size: 20px;
 }
@@ -171,8 +218,8 @@
 /* Caja que se abre al seleccionar algun servicio */
 
 
-.serv .musculacion{
-    background: url('../images/musculacion.png'); 
+.serv .musculacion {
+    background: url('../images/musculacion.png');
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
@@ -184,14 +231,16 @@
     box-sizing: border-box;
     transition: .5s !important;
 }
-.serv .musculacion:hover{
+
+.serv .musculacion:hover {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/musculacion.png');
     background-repeat: no-repeat;
     background-size: cover;
     transform: scale(1.02);
 }
-.serv .cardio{
-    background: url('../images/cardio.png'); 
+
+.serv .cardio {
+    background: url('../images/cardio.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -204,15 +253,17 @@
     box-sizing: border-box;
     transition: .5s !important;
 }
-.serv .cardio:hover{
+
+.serv .cardio:hover {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/cardio.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
     transform: scale(1.02);
 }
-.serv .yoga{
-    background: url('../images/yoga.png'); 
+
+.serv .yoga {
+    background: url('../images/yoga.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -225,15 +276,17 @@
     box-sizing: border-box;
     transition: .5s !important;
 }
-.serv .yoga:hover{
+
+.serv .yoga:hover {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/yoga.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
     transform: scale(1.02);
 }
-.serv .crossfit{
-    background: url('../images/cross.png'); 
+
+.serv .crossfit {
+    background: url('../images/cross.png');
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
@@ -245,12 +298,14 @@
     box-sizing: border-box;
     transition: .5s !important;
 }
-.serv .crossfit:hover{
+
+.serv .crossfit:hover {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/cross.png');
     background-repeat: no-repeat;
     background-size: cover;
     transform: scale(1.02);
 }
+
 .serv button {
     height: 30px;
     width: 90px;
@@ -263,59 +318,70 @@
     cursor: pointer;
     background-color: #da7b00;
 }
+
 .serv button:hover {
     width: 110px;
     background-color: #df9638;
 }
+
 .serv ul li a {
     text-decoration: none;
     color: #000;
 }
-.vermas{
+
+.vermas {
     margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.verMasMusc{
+
+.verMasMusc {
     position: relative;
     margin-left: 30px;
     height: 550px;
     width: 80%;
     background: white;
 }
-.img-close{
+
+.img-close {
     cursor: pointer;
     height: 10px;
     position: absolute;
     top: 15px;
     right: 15px;
 }
-.img-close:hover{
+
+.img-close:hover {
     filter: invert(40%);
 }
-.verMasMusc h1{
+
+.verMasMusc h1 {
     font-size: 25px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
-.vermasbox{
+
+.vermasbox {
     height: 100%;
     display: flex;
 }
-.vermasbox .images{
+
+.vermasbox .images {
     width: 75%;
     height: 100%;
     background-color: #FA8403;
     clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
 }
-.vermasbox .vermas-cont{
+
+.vermasbox .vermas-cont {
     width: 40%;
     height: 100%;
-    background-color: aliceblue;
+    background-color: white;
     padding: 30px 30px 40px;
     box-sizing: border-box;
 }
+
 .vermas-cont p {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -326,29 +392,33 @@
 
 /* Tarjetas responsive*/
 
-@media screen and (max-width:960px){
-    .vermasbox{
+@media screen and (max-width:960px) {
+    .vermasbox {
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
     }
-    .vermasbox .images{
+
+    .vermasbox .images {
         width: 100%;
         height: 70%;
         clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
     }
-    .vermasbox .vermas-cont{
+
+    .vermasbox .vermas-cont {
         width: 100%;
         padding-top: 10px;
         height: 30%;
     }
-    .verMasMusc h1{
+
+    .verMasMusc h1 {
         display: inline;
         font-size: 22px;
         text-align: start;
         font-family: 'Montserrat', sans-serif;
     }
+
     .vermas-cont p {
         font-family: 'Montserrat', sans-serif;
         font-size: 12px;
@@ -358,18 +428,20 @@
     }
 }
 
-@media screen and (max-width:690px){
-    .vermasbox .images{
+@media screen and (max-width:690px) {
+    .vermasbox .images {
         width: 100%;
         height: 70%;
         clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
     }
-    .verMasMusc h1{
+
+    .verMasMusc h1 {
         display: inline;
         font-size: 18px;
         text-align: start;
         font-family: 'Montserrat', sans-serif;
     }
+
     .vermas-cont p {
         font-family: 'Montserrat', sans-serif;
         font-size: 10px;
@@ -385,39 +457,44 @@
 /* Main 3 : Por que elegirnos*/
 
 
-.main3{
+.main3 {
     height: auto;
-    background: linear-gradient(25deg,#FA8403,#e69c3b) ;
+    background: linear-gradient(25deg, #FA8403, #e69c3b);
     /* background: url('../images/minafondo.jpg'); */
-    background: linear-gradient(rgba(214, 74, 31, 0.685), rgba(201, 86, 33, 0.5)), url('../images/minafondo.jpg') top/cover ;
+    background: linear-gradient(rgba(214, 74, 31, 0.685), rgba(201, 86, 33, 0.5)), url('../images/minafondo.jpg') top/cover;
     background-size: cover;
 
 }
+
 .cont3 {
     padding: 100px;
 }
+
 .main3 .cont3 h1 {
     font-weight: 900;
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
 }
-.caja{
+
+.caja {
     display: flex;
     justify-content: center;
 }
-.main3-parrafos{
+
+.main3-parrafos {
     display: flex;
     gap: 100px;
 }
-.main3-parrafos b{
+
+.main3-parrafos b {
     color: #ff6600;
 }
 
-.parrafos3{
+.parrafos3 {
     width: 40%;
 }
 
-.main3-parrafos p{
+.main3-parrafos p {
     margin-top: -10px;
     color: #eee6e6;
     font-family: 'Roboto', sans-serif;
@@ -426,6 +503,7 @@
     padding-top: 10px;
     line-height: 1.5;
 }
+
 .main3-cards {
     margin-top: 30px;
     text-align: center;
@@ -436,7 +514,7 @@
     gap: 30px;
 }
 
-.main3-cards div{
+.main3-cards div {
     height: auto;
     width: auto;
     box-sizing: border-box;
@@ -444,56 +522,67 @@
     border-radius: 10px 0 10px 0;
     background-color: #252525;
 }
-.main3-cards p{
+
+.main3-cards p {
     font-family: 'Tilt Neon', sans-serif;
     padding-top: 20px;
     text-align: center;
     color: #fa7203;
 }
-.img-card3{
+
+.img-card3 {
     height: 60px;
     filter: invert(100%);
 }
-.main3-img{
+
+.main3-img {
     height: 500px
 }
-.main3-img img{
+
+.main3-img img {
     height: 100%;
 }
 
 
-@media screen and (max-width:870px){
-    .cont3{
+@media screen and (max-width:870px) {
+    .cont3 {
         padding: 60px 80px;
     }
-    .main3-parrafos{
+
+    .main3-parrafos {
         display: flex;
         flex-direction: column;
         gap: 50px;
     }
+
     .main3-cards {
         text-align: center;
         width: 100%;
         text-align: center;
         margin-top: 0;
     }
-    .parrafos3{
+
+    .parrafos3 {
         text-align: center;
         width: 100%;
     }
-    .parrafos3 p{
+
+    .parrafos3 p {
         text-align: center;
     }
 }
-@media screen and (max-width:410px){
-    .cont3{
+
+@media screen and (max-width:410px) {
+    .cont3 {
         padding: 60px 80px;
     }
-    .main3-parrafos{
+
+    .main3-parrafos {
         display: flex;
         flex-direction: column;
         gap: 50px;
     }
+
     .main3-cards {
         display: flex;
         flex-direction: column;
@@ -502,11 +591,13 @@
         text-align: center;
         margin-top: 0;
     }
-    .parrafos3{
+
+    .parrafos3 {
         text-align: center;
         width: 100%;
     }
-    .parrafos3 p{
+
+    .parrafos3 p {
         text-align: center;
     }
 }
@@ -516,34 +607,39 @@
 /* Main 4 : Planes y precios*/
 
 
-.main4{
+.main4 {
     height: auto;
     padding: 50px 70px 100px;
     background-color: #1c1c22;
     margin: 0;
     box-sizing: border-box;
 }
-.main4-cont{
+
+.main4-cont {
     padding-top: 30px;
     display: flex;
     justify-content: center;
     gap: 50px;
     flex-wrap: wrap;
 }
-.text-main4{
+
+.text-main4 {
     font-family: 'Tilt Neon', sans-serif;
     text-align: center;
     color: white;
 }
+
 .text-main4 h1 {
     font-size: 35px;
     font-weight: 100;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
+
 .text-main4 b {
     color: #ff7300;
 }
+
 .text-main4 p {
     font-family: 'Montserrat', sans-serif;
 }
@@ -552,23 +648,27 @@
 /* Main 5 : Entrenadores*/
 
 
-.main5{
+.main5 {
     height: auto;
     background-color: #1c1c22;
     box-sizing: border-box;
 }
-.main5-box{
-    margin: 0;padding: 0;
+
+.main5-box {
+    margin: 0;
+    padding: 0;
     clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
     background-color: #da7b00;
-    background: linear-gradient(25deg,#fc9713,#ff7b00) ;
+    background: linear-gradient(25deg, #fc9713, #ff7b00);
     height: 100%;
 }
+
 .main5-box .main5-cont {
     padding: 50px 70px 80px;
     text-align: center;
 }
-.main5-box .main5-title{
+
+.main5-box .main5-title {
     padding-top: 10px;
     font-size: 35px;
     font-weight: 100;
@@ -576,30 +676,35 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
-.main5-title span{
+
+.main5-title span {
     color: white;
 }
-.container-coach{
+
+.container-coach {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 10%;
 }
-.main5-cont p{
+
+.main5-cont p {
     color: white;
     font-family: 'Roboto', sans-serif;
 }
+
 .parrafo-coachs {
     margin-top: 50px;
 }
 
-@media screen and (max-width:1100px){
-    .main5-box{
-        margin: 0;padding: 0;
+@media screen and (max-width:1100px) {
+    .main5-box {
+        margin: 0;
+        padding: 0;
         clip-path: polygon(0 4%, 100% 0%, 100% 100%, 0% 100%);
         background-color: #da7b00;
-        background: linear-gradient(25deg,#fc9713,#ff7b00) ;
+        background: linear-gradient(25deg, #fc9713, #ff7b00);
         height: 100%;
     }
 }
@@ -608,9 +713,9 @@
 /* Main 6 : Footer*/
 
 
-.main6{
+.main6 {
     height: auto;
-    padding:  60px ;
+    padding: 60px;
     background: linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88)), url('../images/a.jpg') center/cover no-repeat;
     background-size: cover;
     background-color: #000;
@@ -619,20 +724,24 @@
     flex-direction: column;
     text-align: center;
 }
+
 .img-footer {
     display: flex;
     justify-content: center;
 
 }
-.logo-footer{
+
+.logo-footer {
     filter: invert(100%);
     margin: 0 auto;
 }
+
 .main6 p {
     margin-top: -10px;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
 }
+
 .main6 footer .footer-links {
     margin-top: 50px;
     display: flex;
@@ -641,22 +750,26 @@
     gap: 4%;
     font-family: 'Tilt Neon', sans-serif;
 }
-.main6 footer .footer-links .foot-link a{
+
+.main6 footer .footer-links .foot-link a {
     text-decoration: none;
     color: #fff;
     transition: .3s;
 }
+
 .main6 footer .footer-links .foot-link a:hover {
     cursor: pointer;
     color: #FA8403;
 }
+
 .main6 footer .re {
     margin: 30px;
-    display:flex;
+    display: flex;
     list-style: none;
     justify-content: center;
-    gap: 4% ;
+    gap: 4%;
 }
+
 .main6 footer .re .redes {
     height: 30px;
     padding: 10px;
@@ -664,14 +777,12 @@
     cursor: pointer;
     transition: .5s;
 }
+
 .main6 .re .redes:hover {
     background-color: #da7b00;
 }
-.msj-final p{
+
+.msj-final p {
     margin-top: 50px;
     font-size: 13px;
 }
-
-
-
-
