@@ -1,0 +1,78 @@
+.coach-box{
+    height: 450px;
+    width: 250px;
+}
+.coach-padre{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.coach-box .img{
+    height: 300px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    transform:translateY(10px) ;
+    transition: .5s;
+}
+.coach-box .img:hover{
+    transform:translateY(0px) ;
+}
+.coach-box .cont{
+    z-index: 1000;
+    height: 28%;
+    color: aliceblue;
+    border-radius: 3px;
+    background-color: #333333;
+}
+.coach-box .cont p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #ff9100;
+    font-size: 15px;
+}
+.coach-box .cont h1 {
+    font-size: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.coach-img{
+    margin: 0 auto;
+    align-items: center;
+    height: 300px;
+}
+.coach-red{
+    height: 25px;
+}
+.cont ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 30px;
+    margin-left: -40px;
+}
+.cont ul li {
+    cursor: pointer;
+}
+.img-mina{
+    margin: 0 auto;
+    width: 250px;
+    align-items: center;
+    transform:translateY(10px) ;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.img-mina img{
+    margin-left: -13px;
+}
+.coach-box .coach-padre .img-mina:hover{
+    transform:translateY(0px) ;
+}
+
+
+
+
+

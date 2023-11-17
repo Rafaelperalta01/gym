@@ -1,6 +1,12 @@
-.App{
-    display: flex;
-    padding: 0;
-    margin: 0;
-    flex-direction: column;
-}
+.App {
+    position: relative;
+  }
+  
+  .miNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  

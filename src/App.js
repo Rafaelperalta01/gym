@@ -1,17 +1,15 @@
 import './App.css';
-
-import { Route, Routes } from 'react-router-dom';
-
+import Nav from './Components/nav';
+import Main from './pages/main';
 
 
 function App() {
   return (
     <div className="App">
-        <Routes>
-          
-        </Routes>
+      <Nav className="miNav" />
+      <Main className="miMain" />
     </div>
   );
-}
+}                    
 
 export default App;

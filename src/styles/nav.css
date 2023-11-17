@@ -1,0 +1,56 @@
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5); /* Ajusta la opacidad según sea necesario */
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    backdrop-filter: blur(3px); /* Ajusta el valor de desenfoque según sea necesario */
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .logo {
+    margin-top: -10px;
+    padding-left: 50px;
+  }
+  
+  .links ul {
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
+    gap: 30px;
+    margin-right: 50px;
+  }
+  
+  .links ul li {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    transition: .4s;
+  }
+  
+  .links ul li:hover {
+    color: rgb(255, 136, 0);
+  }
+  
+  .menu {
+    height: 25px;
+    filter: invert(100%);
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+
