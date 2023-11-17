@@ -217,24 +217,24 @@ export default function Main() {
                 
             </div>
             <div className='main6'>
-                <footer data-aos="fade-up">
-                    <div className="img-footer">
+                <footer>
+                    <div className="img-footer" data-aos="fade-up" >
                         <img className='logo-footer' src={logo} alt="Logo" />
                     </div>
-                    <p>Transforma tu vida con Spartans Gym. Encuentra tu fuerza, equilibrio y bienestar con nosotros.</p>
-                    <div className='footer-links'>
+                    <p data-aos="fade-up" >Transforma tu vida con Spartans Gym. Encuentra tu fuerza, equilibrio y bienestar con nosotros.</p>
+                    <div className='footer-links' data-aos="fade-up" >
                         <div className='foot-link'> <a href="#main1">Home</a></div>
                         <div className='foot-link'> <a href="#servs1">Services</a></div>
                         <div className='foot-link'> <a href="#333">About</a></div>
                         <div className='foot-link'> <a href="#listadoprecios">Prices</a></div>
                         <div className='foot-link'> <a href="#main5">Coaches</a></div>
                     </div>
-                    <div className='re'>
+                    <div className='re' data-aos="fade-up" >
                         <div><img className='redes' src={wsp} alt="WhatssApp" /></div>
                         <div><img className='redes' src={insta} alt="Instagram" /></div>
                         <div><img className='redes' src={gmail} alt="Instagram" /></div>
                     </div>
-                    <div className="msj-final">
+                    <div className="msj-final" data-aos="fade-up" >
                         <p>© 2024 Todos los derechos reservados.</p>
                         <p>Created by SoftFusion</p>
                     </div>
