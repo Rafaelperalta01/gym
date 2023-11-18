@@ -10,7 +10,7 @@
     text-align: center;
     flex-direction: column;
     height:calc(100vh) ;
-    padding: 20px;
+    padding-top: 100px;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.815)), url('../images/fondofooter.jpg') center/cover no-repeat;
 }
 .main1 .parrafos{
@@ -64,7 +64,7 @@
 
 @media screen and (max-width:610px) {
     .parrafos{
-        margin-top: -100px;
+        padding-top: -100px;
     }
     .parrafos h1 {
         margin-top: 70px;
