@@ -7,25 +7,14 @@
 .main1 {
     display: flex;
     justify-content: center;
-    align-items: center;
     text-align: center;
     flex-direction: column;
-    height: 100vh;
-    padding-top: 50px;
-    padding-bottom: 20px;
+    height:calc(100vh) ;
+    padding: 20px;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.815)), url('../images/fondofooter.jpg') center/cover no-repeat;
 }
-
-.fotos-main1 {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    gap: 30px;
-    padding-top: 40px;
-}
-.parrafos {
-    padding: 0 70px;
-    margin-top: -30vh;
+.main1 .parrafos{
+    margin-top: -200px;
 }
 .parrafos h1 {
     font-family: 'Oswald', sans-serif;
@@ -58,13 +47,12 @@
     width: 200px;
     color: white;
 }
-.main1 .datos {
-    margin-top: 13vh;
-    height: auto;
+/* .main1 .datos {
     width: 100%;
     display: flex;
     justify-content: center;
     gap: 5%;
+    margin-bottom: 40px;
 }
 .main1 .datos .dato{
     color: rgb(255, 255, 255);
@@ -72,9 +60,12 @@
     width: auto;
     font-size: 22px;
     font-family: 'Oswald', sans-serif;
-}
+} */
 
 @media screen and (max-width:610px) {
+    .parrafos{
+        margin-top: -100px;
+    }
     .parrafos h1 {
         margin-top: 70px;
         font-family: 'Oswald', sans-serif;
@@ -84,15 +75,15 @@
     }
     .parrafos p {
         margin-top: 30px;
-        font-size: 12px;
+        font-size: 13px;
         color: white;
         font-family: 'Montserrat', sans-serif;
     }
 }
 
 @media screen and (max-width:440px) {
-    .parrafos {
-        padding: 20px;
+    .main1 .parrafos{
+        margin-top: -190px;
     }
     .parrafos h1 {
         margin-top: 70px;
@@ -102,7 +93,7 @@
         font-size: 35px;
     }
     .parrafos p {
-        font-size: 11px;
+        font-size: 13px;
         line-height: 1.7;
         color: white;
         font-family: 'Montserrat', sans-serif;
@@ -126,9 +117,9 @@
         transition: .5s;
         cursor: pointer;
     }
-    .main1 .datos {
+    /* .main1 .datos {
         padding-bottom: 40px;
-    }
+    } */
 
 }
 
