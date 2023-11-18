@@ -12,7 +12,18 @@ import logo from '../images/logo.png'
 import Card from '../Components/cardprecio'
 import Aos from 'aos'
 import Coach, { Coach2 } from '../Components/coach'
-
+import musc1 from '../images/salamusculacion1.jpg'
+import musc2 from '../images/salamusculacion2.png'
+import musc3 from '../images/salamusculacion3.jpg'
+import cardio1 from '../images/salacardio1.jpg'
+import cardio2 from '../images/salacardio2.jpg'
+import cardio3 from '../images/salacardio3.jpg'
+import yoga1 from '../images/salayoga1.webp'
+import yoga2 from '../images/salayoga2.jpeg'
+import yoga3 from '../images/salayoga3.jpg'
+import cross1 from '../images/salacrossfit1.jpg'
+import cross2 from '../images/salacrossfit2.jpg'
+import cross3 from '../images/salacrossfit3.jpeg'
 
 export default function Main() {
 
@@ -37,6 +48,51 @@ export default function Main() {
     const cerrarVentana = () => {
         setServicio('')
     }
+
+    const [fondomusculacion, setFondomusculacion] = useState(musc1); // Estado para la imagen de fondo
+    const [fondocardio, setFondocardio] = useState(cardio1); // Estado para la imagen de fondo
+    const [fondoyoga, setFondoyoga] = useState(yoga1); // Estado para la imagen de fondo
+    const [fondocrossfit, setFondocrossfit] = useState(cross1); // Estado para la imagen de fondo
+
+    const cambiarFonduMusc = () => {
+        setFondomusculacion(musc1);
+    };
+    const cambiarFonduMusc2 = () => {
+        setFondomusculacion(musc2);
+    };
+    const cambiarFonduMusc3 = () => {
+        setFondomusculacion(musc3);
+    };
+
+    const cambiarFonduCardio = () => {
+        setFondocardio(cardio1);
+    };
+    const cambiarFonduCardio2 = () => {
+        setFondocardio(cardio2);
+    };
+    const cambiarFonduCardio3 = () => {
+        setFondocardio(cardio3);
+    };
+
+    const cambiarFondoYoga = () => {
+        setFondoyoga(yoga1);
+    };
+    const cambiarFondoYoga2 = () => {
+        setFondoyoga(yoga2);
+    };
+    const cambiarFondoYoga3 = () => {
+        setFondoyoga(yoga3);
+    };
+
+    const cambiarFonduCross = () => {
+        setFondocrossfit(cross1);
+    };
+    const cambiarFonduCross2 = () => {
+        setFondocrossfit(cross2);
+    };
+    const cambiarFonduCross3 = () => {
+        setFondocrossfit(cross3);
+    };
 
     return (
         <div className='box-padre'>
@@ -76,7 +132,12 @@ export default function Main() {
                                 <div className='verMasMusc'>
                                     <a href="#servs1"><img src={close} className='img-close' onClick={cerrarVentana} alt="Cerrar Ventana" /></a>
                                     <div className='vermasbox'>
-                                        <div className='images'>
+                                        <div className='images'style={{ backgroundImage: `url(${fondomusculacion})` }}>
+                                            <ul>
+                                                <li onClick={cambiarFonduMusc}></li>
+                                                <li onClick={cambiarFonduMusc2}></li>
+                                                <li onClick={cambiarFonduMusc3}></li>
+                                            </ul>
                                             <a href="#servs1"><img src={close} className='img-close' onClick={cerrarVentana} alt="Cerrar Ventana" /></a>
                                         </div>
                                         <div className='vermas-cont'>
@@ -98,7 +159,12 @@ export default function Main() {
                                 <div className='verMasMusc'>
                                     <a href="#servs1"><img src={close} className='img-close' onClick={cerrarVentana} alt="Cerrar Ventana" /></a>
                                     <div className='vermasbox'>
-                                        <div className='images'>
+                                        <div className='images'style={{ backgroundImage: `url(${fondocardio})` }}>
+                                            <ul>
+                                                <li onClick={cambiarFonduCardio}></li>
+                                                <li onClick={cambiarFonduCardio2}></li>
+                                                <li onClick={cambiarFonduCardio3}></li>
+                                            </ul>
                                             <a href="#servs1"><img src={close} className='img-close' onClick={cerrarVentana} alt="Cerrar Ventana" /></a>
                                         </div>
                                         <div className='vermas-cont'>
@@ -120,7 +186,12 @@ export default function Main() {
                                 <div className='verMasMusc'>
                                     <a href="#servs1"><img src={close} className='img-close' onClick={cerrarVentana} alt="Cerrar Ventana" /></a>
                                     <div className='vermasbox'>
-                                        <div className='images'>
+                                        <div className='images'style={{ backgroundImage: `url(${fondoyoga})` }}>
+                                            <ul>
+                                                <li onClick={cambiarFondoYoga}></li>
+                                                <li onClick={cambiarFondoYoga2}></li>
+                                                <li onClick={cambiarFondoYoga3}></li>
+                                            </ul>
                                             <a href="#servs1"><img src={close} className='img-close' onClick={cerrarVentana} alt="Cerrar Ventana" /></a>
                                         </div>
                                         <div className='vermas-cont'>
@@ -143,7 +214,12 @@ export default function Main() {
                                 <div className='verMasMusc'>
                                     <a href="#servs1"><img src={close} className='img-close' onClick={cerrarVentana} alt="Cerrar Ventana" /></a>
                                     <div className='vermasbox'>
-                                        <div className='images'>
+                                        <div className='images'style={{ backgroundImage: `url(${fondocrossfit})` }}>
+                                            <ul>
+                                                <li onClick={cambiarFonduCross}></li>
+                                                <li onClick={cambiarFonduCross2}></li>
+                                                <li onClick={cambiarFonduCross3}></li>
+                                            </ul>
                                             <a href="#servs1"><img src={close} className='img-close' onClick={cerrarVentana} alt="Cerrar Ventana" /></a>
                                         </div>
                                         <div className='vermas-cont'>
