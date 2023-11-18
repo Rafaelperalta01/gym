@@ -34,7 +34,7 @@ export default function Card({ nombre, precio, b1, b2, b3, b4, b5, b6 }){
                         </li>
                     </ul>
                 </div>
-                <button className='card-btn'>Comenzar ahora</button>
+                <a href="#enviaremail"><button className='card-btn'>Comenzar ahora</button></a>
             </div>
         </div>
     )

@@ -776,16 +776,41 @@
 
 .main6 footer .re .redes {
     height: 30px;
-    padding: 10px;
     border-radius: 50%;
     cursor: pointer;
     transition: .5s;
 }
 
-.main6 .re .redes:hover {
-    background-color: #da7b00;
+.email {
+    font-family: 'Roboto', sans-serif;
 }
+.email label{
+    margin-right: 20px;
+}
+.email input{
+    height: 25px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgba(82, 81, 81, 0.685);
+    padding-left: 10px;
+    color: rgb(212, 212, 212);
+}
+.email button{
+    height: 27px;
+    cursor: pointer;
+    width: 25px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgba(255, 102, 0, 0.685);
+}
+.email button:hover{
+    background-color: rgba(255, 102, 0);
+}
+.email input:focus{
+    border: none;
+    outline: none;
 
+}
 .msj-final p {
     margin-top: 50px;
     font-size: 13px;

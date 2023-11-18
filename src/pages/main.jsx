@@ -94,6 +94,11 @@ export default function Main() {
         setFondocrossfit(cross3);
     };
 
+    const limpiarEmail = () => {
+        const e = document.querySelector('.sendemail');
+        e.value = '';
+    }
+
     return (
         <div className='box-padre'>
             <div className='main1' id='main1'>
@@ -101,7 +106,7 @@ export default function Main() {
                     <h1>Espartans Gym</h1>
                     <p>"Tu cuerpo es tu inversión más valiosa. Únete a nosotros y comienza a cosechar los beneficios de una vida activa y saludable."</p>
                     <div className='btn-main1'>
-                        <button>Comenzar ahora</button>
+                        <a href="#enviaremail"><button>Comenzar ahora</button></a>
                     </div>
                 </div>
                 {/* <div className="datos" data-aos="fade-down">
@@ -313,6 +318,11 @@ export default function Main() {
                         <div><img className='redes' src={wsp} alt="WhatssApp" /></div>
                         <div><img className='redes' src={insta} alt="Instagram" /></div>
                         <div><img className='redes' src={gmail} alt="Instagram" /></div>
+                    </div>
+                    <div id='enviaremail' className="email" data-aos="fade-up">
+                        <label htmlFor="email">Suscribete ahora</label>
+                        <input className='sendemail' type="text" id='email'/>
+                        <button onClick={limpiarEmail}>&gt;</button>
                     </div>
                     <div className="msj-final" data-aos="fade-up" >
                         <p>© 2024 Todos los derechos reservados.</p>
