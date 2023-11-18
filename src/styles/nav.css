@@ -88,7 +88,7 @@
 
   .logo{
     height: 80px;
-    padding-left: 50px;
+    padding-left: 10px;
   }
   .menu.links{
     position: absolute;
@@ -98,7 +98,7 @@
 
 @media (max-width:460px){
   .open a li {
-    font-size: 11px;
+    font-size: 13px;
   }
 
 }
