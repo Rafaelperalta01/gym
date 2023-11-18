@@ -47,7 +47,6 @@ export default function Main() {
                     <div className='btn-main1'>
                         <button>Comenzar ahora</button>
                     </div>
-
                 </div>
                 <div className="datos" data-aos="fade-down">
                     <div className='dato'><p>+ 20 <br />Entrenadores</p></div>
