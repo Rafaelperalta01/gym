@@ -6,14 +6,13 @@
 }
 
 .main1 {
-    padding-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    flex-direction:column;
-    padding: 165px 0;
-    height: calc(100vh - 50px);
+    flex-direction: column;
+    padding: 105px 0;
+    height: calc(100vh - 100px);
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.815)), url('../images/fondofooter.jpg') center/cover no-repeat;
 }
 
@@ -68,12 +67,12 @@
     gap: 5%;
 }
 .main1 .datos .dato{
+
     color: rgb(255, 255, 255);
     height: auto;
     width: auto;
     font-size: 22px;
     font-family: 'Oswald', sans-serif;
-    font-weight: 100;
 }
 
 @media screen and (max-width:610px) {
@@ -90,9 +89,6 @@
         font-size: 12px;
         color: white;
         font-family: 'Montserrat', sans-serif;
-    }
-    .main1 .datos .dato{
-        font-size: 16px;
     }
 }
 
@@ -141,6 +137,12 @@
         transition: .5s;
         cursor: pointer;
     }
+    .main1 .datos {
+        padding-bottom: 30px;
+
+    }
+
+    
 }
 
 
