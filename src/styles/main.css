@@ -6,13 +6,14 @@
 }
 
 .main1 {
+    padding-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    flex-direction: column;
-    padding: 105px 0;
-    height: calc(100vh - 100px);
+    flex-direction:column;
+    padding: 165px 0;
+    height: calc(100vh - 50px);
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.815)), url('../images/fondofooter.jpg') center/cover no-repeat;
 }
 
@@ -72,6 +73,7 @@
     width: auto;
     font-size: 22px;
     font-family: 'Oswald', sans-serif;
+    font-weight: 100;
 }
 
 @media screen and (max-width:610px) {
