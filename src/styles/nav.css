@@ -1,56 +1,104 @@
 .nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  /* Ajusta la opacidad según sea necesario */
+  display: flex;
+  justify-content: space-between;
+  z-index: 1000;
+  backdrop-filter: blur(3px);
+  /* Ajusta el valor de desenfoque según sea necesario */
+}
+
+.nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+.logo {
+  margin-top: -10px;
+  padding-left: 30px;
+}
+
+.links ul {
+  display: flex;
+  list-style: none;
+  padding-top: 10px;
+  gap: 30px;
+  margin-right: 50px;
+}
+
+.links ul li {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  transition: .4s;
+}
+
+.links ul li:hover {
+  color: rgb(255, 136, 0);
+}
+
+.menu {
+  height: 25px;
+  filter: invert(100%);
+  display: none;
+  margin-right: 30px;
+}
+
+@media (max-width:1000px) {
+
+  .menu-open{
     position: fixed;
-    top: 0;
-    left: 0;
-    height: 70px;
+    background-color: rgba(255, 255, 255, 0.404);
+    height: auto;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.5); /* Ajusta la opacidad según sea necesario */
     display: flex;
     justify-content: space-between;
-    z-index: 1000;
-    backdrop-filter: blur(3px); /* Ajusta el valor de desenfoque según sea necesario */
+    gap: 5%;
   }
-  
-  .nav a {
-    text-decoration: none;
-    color: #000;
+  .menu-open img {
+    margin-left: -50px;
   }
-  
-  .logo {
-    margin-top: -10px;
-    padding-left: 50px;
-  }
-  
-  .links ul {
+
+  .open{
     display: flex;
-    list-style: none;
-    padding-top: 10px;
-    gap: 30px;
-    margin-right: 50px;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -30%;
   }
-  
-  .links ul li {
-    font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
-    transition: .4s;
+
+  .open a  {
+    display: flex;
   }
-  
-  .links ul li:hover {
-    color: rgb(255, 136, 0);
+  .open a li {
+    margin-right: -20px;
   }
-  
-  .menu {
-    height: 25px;
-    filter: invert(100%);
+
+  .menu{
+    margin-top: 20px;
+    display: block;
+  }
+
+  .f{ 
     display: none;
   }
 
+  .logo{
+    height: 80px;
+    padding-left: 50px;
+  }
+  .menu.links{
+    position: absolute;
+    right: 0;
+  }
+}
 
+@media (max-width:460px){
+  .open a li {
+    font-size: 11px;
+  }
 
-
-
-
-
-
-
-
+}
