@@ -60,7 +60,7 @@ export default function Main() {
                     <h1 data-aos="fade-up">Nuestros <b>servicios</b></h1>
                     <p data-aos="fade-up">Explora un abanico de servicios diseñados para transformar tu experiencia de fitness. Desde entrenamientos personalizados hasta clases vibrantes, cada servicio en nuestra oferta está diseñado para llevar tu bienestar a nuevas alturas. Únete a nosotros y descubre cómo podemos personalizar tu viaje hacia una vida activa y saludable.</p>
                     <div className='serv'>
-                        <div data-aos="zoom-out-up" className='contenedor'>
+                        <div className='contenedor'>
                             <div data-aos="fade-right" id='servicio' className='musculacion'><p>Musculación</p><a href="#vermas"><button onClick={verMusculacion}>Ver más</button></a></div>
                             <div data-aos="fade-right" id='servicio' className='cardio'><p>Cardio</p><a href="#vermas"><button onClick={verCardio}>Ver más</button></a></div>
                             <div data-aos="fade-left" id='servicio' className='yoga'><p>Yoga</p><a href="#vermas"><button onClick={verYoga}>Ver más</button></a></div>
