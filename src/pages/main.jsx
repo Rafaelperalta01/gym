@@ -49,7 +49,7 @@ export default function Main() {
                     </div>
 
                 </div>
-                <div className="datos">
+                <div className="datos" data-aos="fade-down">
                     <div className='dato'><p>+ 20 <br />Entrenadores</p></div>
                     <div className='dato'><p>+ 800 <br />Miembros</p></div>
                     <div className='dato'><p>+ 50 <br /> Programas</p></div>

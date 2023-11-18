@@ -12,8 +12,8 @@
     align-items: center;
     text-align: center;
     flex-direction:column;
-    padding: 165px 0;
-    height: calc(100vh - 50px);
+    padding-top: 165px ;
+    height: calc(100vh - 130px);
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.815)), url('../images/fondofooter.jpg') center/cover no-repeat;
 }
 
@@ -97,6 +97,8 @@
 }
 
 @media screen and (max-width:440px) {
+
+
     .parrafos {
         padding: 20px;
         margin-top: -30vh;
