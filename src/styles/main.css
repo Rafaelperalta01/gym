@@ -12,10 +12,8 @@
     align-items: center;
     text-align: center;
     flex-direction:column;
-    /* padding-top: 165px;
-    padding-bottom: 70px; */
-    padding: 165px 0 90px;
-    height: calc(100vh - 130px);
+    padding: 165px 0;
+    height: calc(100vh - 50px);
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.815)), url('../images/fondofooter.jpg') center/cover no-repeat;
 }
 
@@ -103,7 +101,7 @@
 
     .parrafos {
         padding: 20px;
-
+        margin-top: -30vh;
     }
 
     .parrafos h1 {
@@ -116,7 +114,7 @@
 
     .parrafos p {
         margin-top: 30px;
-        font-size: 13px;
+        font-size: 11px;
         line-height: 1.7;
         color: white;
         font-family: 'Montserrat', sans-serif;
@@ -567,7 +565,7 @@
 
 @media screen and (max-width:410px) {
     .cont3 {
-        padding: 60px 30px;
+        padding: 60px 80px;
     }
 
     .main3-parrafos {
