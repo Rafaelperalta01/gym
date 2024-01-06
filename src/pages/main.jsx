@@ -100,7 +100,7 @@ export default function Main() {
     }
 
     return (
-        <div className='box-padre'>
+        <div className='box-padre bg-red-500'>
             <div className='main1' id='main1'>
                 <div className='parrafos' data-aos="fade-down">
                     <h1>Espartans Gym</h1>
@@ -109,11 +109,6 @@ export default function Main() {
                         <a href="#enviaremail"><button>Comenzar ahora</button></a>
                     </div>
                 </div>
-                {/* <div className="datos" data-aos="fade-down">
-                    <div className='dato'><p>+ 20 <br />Entrenadores</p></div>
-                    <div className='dato'><p>+ 800 <br />Miembros</p></div>
-                    <div className='dato'><p>+ 50 <br /> Programas</p></div>
-                </div> */}
             </div>
 
             <div className="main2">
