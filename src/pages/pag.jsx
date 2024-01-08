@@ -1,4 +1,5 @@
 import About1 from "../Components/about";
+import Footer from "../Components/footer";
 import Marcas from "../Components/marcas";
 import Servicios from "../Components/servicios";
 import Testimonios from "../Components/testimonios";
@@ -13,6 +14,7 @@ export default function Pagina() {
             <Servicios />
             <About1 />
             <Testimonios />
+            <Footer />
         </>
 
     )
