@@ -13,6 +13,7 @@ const Testimonios = () => {
                         <div
                             class="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
                             <img
+                                alt="a"
                                 src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" />
                         </div>
                         <div class="p-6">
@@ -41,6 +42,7 @@ const Testimonios = () => {
                         <div
                             class="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
                             <img
+                                alt="a"
                                 src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp" />
                         </div>
                         <div class="p-6">
@@ -69,6 +71,7 @@ const Testimonios = () => {
                         <div
                             class="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
                             <img
+                                alt="a"
                                 src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp" />
                         </div>
                         <div class="p-6">
