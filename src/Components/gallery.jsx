@@ -3,9 +3,9 @@ const Gallery = () => {
     return (
         <>
         <div className="bg-orange-400">
-            <h1 className="font-roboto text-center text-4xl text-white font-semibold pt-10">Bienvenido a la Galería Hammer</h1>
-            <p className="text-center text-lg px-10 text-gray-900 pt-5">¡Estás a punto de sumergirte en un viaje visual que captura la esencia de Hammer Fitness! En cada imagen, encontrarás la pasión, la fuerza y la determinación que definen nuestra comunidad. Estamos comprometidos a brindarte un espacio donde puedas alcanzar tus metas fitness mientras disfrutas de un ambiente positivo y motivador.</p>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 p-20">
+            <h1 data-aos="fade-up" className="font-roboto text-center text-4xl text-white font-semibold pt-10">Bienvenido a la Galería Hammer</h1>
+            <p data-aos="fade-up" className="text-center text-lg px-10 text-gray-900 pt-5">¡Estás a punto de sumergirte en un viaje visual que captura la esencia de Hammer Fitness! En cada imagen, encontrarás la pasión, la fuerza y la determinación que definen nuestra comunidad. Estamos comprometidos a brindarte un espacio donde puedas alcanzar tus metas fitness mientras disfrutas de un ambiente positivo y motivador.</p>
+            <div data-aos="zoom-in" class="grid grid-cols-2 md:grid-cols-4 gap-4 p-20">
                 <div class="grid gap-4">
                     <div>
                         <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt="" />
