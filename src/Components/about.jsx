@@ -1,6 +1,7 @@
 import React from "react";
 import guiones from '../images/guionesnar.png'
 import Puntitos from "./puntitos";
+import { Link } from "react-router-dom";
 
 const About1 = () => {
     return (
@@ -66,12 +67,23 @@ const About1 = () => {
                                     brand. Secure a consistent brand image with a domain name that
                                     matches your business.
                                 </p>
-                                <a
+                                <div className="flex gap-5">
+                                    <a
                                     href="https://facebook.com"
                                     className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-orange-500 hover:bg-opacity-80"
                                 >
                                     Get Started
                                 </a>
+                                <Link to={'/gallery'}>
+                                <a
+                                    href="https://facebook.com"
+                                    className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-orange-500 hover:bg-opacity-80"
+                                >
+                                    Gallery
+                                </a>
+                                </Link>
+                                </div>
+                                
                             </div>
                         </div>
                     </div>
