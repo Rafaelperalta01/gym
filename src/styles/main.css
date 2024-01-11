@@ -4,15 +4,7 @@
     box-sizing: border-box;
     position: relative;
 }
-.main1 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height:calc(100vh) ;
-    padding-top: 100px;
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.815)), url('../images/fondofooter.jpg') center/cover no-repeat;
-}
+
 .main1 .parrafos{
     margin-top: -200px;
 }
@@ -346,7 +338,6 @@
     width: 75%;
     height: 100%;
     background-color: #FA8403;
-    background: url('../images/a.jpg');
     background-size: cover;
     background-position: center;
     clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
