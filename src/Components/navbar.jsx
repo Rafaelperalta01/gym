@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <nav className="justify-between w-full dark:bg-gray-500 py-3">
-      <div className="h-12 flex w-full bg-transparent justify-between items-center px-20 pr-14 z-10 dark:bg-transparent ">
+      <div className="h-12 flex w-full bg-transparent justify-between items-center px-10 z-10 dark:bg-transparent ">
         <div>
           <img className="h-6" src="https://www.hammer.ar/image/logohammerorange.png" alt="Logo" />
         </div>
