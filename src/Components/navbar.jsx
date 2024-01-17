@@ -55,7 +55,7 @@ const Navbar = () => {
       </div>
 
       {isMobileMenuOpen && (
-        <div className="h-auto absolute bg-[#fffb] text-black backdrop-filter backdrop-blur-lg pb-5 w-full z-15 lg:hidden bg-transparent px-16 z-50 dark:text-white bg-[#fff5] text-black backdrop-filter backdrop-blur-md">
+        <div className="h-auto absolute bg-[#fffb] text-black backdrop-filter backdrop-blur-lg pb-5 w-full z-15 lg:hidden bg-transparent px-8 z-50 dark:text-white bg-[#fff5] text-black backdrop-filter backdrop-blur-md">
           <a href="#home" className="block py-2 px-4 ">
             Home
           </a>
