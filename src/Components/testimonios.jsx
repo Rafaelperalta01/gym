@@ -2,7 +2,7 @@
 
 const Testimonios = () => {
     return (
-        <section class="text-black dark:text-neutral-300 bg-gray-300 dark:bg-gray-400">
+        <section id="testi" class="text-black dark:text-neutral-300 bg-gray-300 dark:bg-gray-400">
             <div class="grid gap-6 text-center md:grid-cols-3 py-10 px-20">
                 <div>
                     <div data-aos="flip-left"

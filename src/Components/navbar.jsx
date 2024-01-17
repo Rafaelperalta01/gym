@@ -23,18 +23,20 @@ const Navbar = () => {
           <a href="https://www.spartansgym.netlify.app" className="">
             Home
           </a>
-          <a href="https://www.spartansgym.netlify.app" className="">
+          <a href="#about" className="">
             ¿Quiénes somos?
           </a>
-          <a href="https://www.spartansgym.netlify.app" className="">
+          <a href="#testi" className="">
             Contacto
           </a>
-          <button className="bg-orange-500 hover:bg-orange-700 text-white py-2 px-8 rounded transition-colors duration-300 z-10">
-            Comenzar
-          </button>
-          <a href="https://www.spartansgym.netlify.app" className="">
-            <img onClick={toggleDarkMode} className="h-7 mt-2 cursor-pointer dark:invert" src={theme} alt="Theme" />
+          <a href="#testi" className=''>
+            <button  className="bg-orange-500 hover:bg-orange-700 text-white py-2 px-8 rounded transition-colors duration-300 z-10">
+                Comenzar
+            </button>
           </a>
+          
+            <img onClick={toggleDarkMode} className="h-7 mt-2 cursor-pointer dark:invert" src={theme} alt="Theme" />
+
         </div>
 
         <div className="lg:hidden">
@@ -54,22 +56,20 @@ const Navbar = () => {
 
       {isMobileMenuOpen && (
         <div className="h-auto absolute bg-[#fffb] text-black backdrop-filter backdrop-blur-lg pb-5 w-full z-15 lg:hidden bg-transparent px-16 z-50 dark:text-white bg-[#fff5] text-black backdrop-filter backdrop-blur-md">
-          <a href="https://www.spartansgym.netlify.app" className="block py-2 px-4 ">
+          <a href="#home" className="block py-2 px-4 ">
             Home
           </a>
-          <a href="https://www.spartansgym.netlify.app" className="block py-2 px-4 ">
+          <a href="#about" className="block py-2 px-4 ">
             ¿Quiénes somos?
           </a>
-          <a href="https://www.spartansgym.netlify.app" className="block py-2 px-4 ">
+          <a href="#testi" className="block py-2 px-4 ">
             Contacto
           </a>
-          <a href="https://www.spartansgym.netlify.app" className="block py-2 px-4 ">
+          <a href="#testi" className="block py-2 px-4 ">
             Comenzar
           </a>
           <div className='ml-4'>
-            <a href="https://www.spartansgym.netlify.app" className="">
                 <img onClick={toggleDarkMode} className="h-7 mt-2 cursor-pointer dark:invert" src={theme} alt="Theme" />
-            </a>
           </div>
           
         </div>

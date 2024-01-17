@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const About1 = () => {
     return (
         <>
-            <section className="overflow-hidden h-full bg-white dark:bg-gradient-to-r from-gray-500 to-gray-700 relative">
+            <section id="about" className="overflow-hidden h-full bg-white dark:bg-gradient-to-r from-gray-500 to-gray-700 relative">
                 <img className='w-8 h-80 absolute top-20 left-0 dark:hidden' src={guiones} alt="Guiones" />
                 <img className='w-8 h-80 absolute bottom-20 right-0 dark:hidden' src={guiones} alt="Guiones" />
                 <div className="container mx-auto py-10">
