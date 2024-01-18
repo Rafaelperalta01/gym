@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import theme from '../images/theme.png';
+import Menu from './logomenu';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -13,8 +14,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="justify-between w-full dark:bg-gray-500 py-3">
-      <div className="h-12 flex w-full bg-transparent justify-between items-center px-10 z-10 dark:bg-transparent ">
+    <nav className="justify-between w-full dark:bg-gray-500  fixed z-50">
+      <div className="h-12 flex w-full bg-white justify-between items-center py-8 px-10 z-10 dark:bg-transparent ">
         <div>
           <img className="h-6" src="https://www.hammer.ar/image/logohammerorange.png" alt="Logo" />
         </div>
@@ -40,22 +41,14 @@ const Navbar = () => {
         </div>
 
         <div className="lg:hidden">
-          <button id="menu-toggle" className="text-white" onClick={toggleMobileMenu}>
-            <svg
-              className="h-6 w-6 invert dark:invert-0"
-              fill="black"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-            </svg>
+          <button id="menu-toggle" className=" relative" onClick={toggleMobileMenu}>
+            <Menu /> {/* menú*/}
           </button>
         </div>
       </div>
 
       {isMobileMenuOpen && (
-        <div className="h-auto absolute bg-[#fffb] text-black backdrop-filter backdrop-blur-lg pb-5 w-full z-15 lg:hidden bg-transparent px-8 z-50 dark:text-white dark:bg-[#90939ed7] dark:backdrop-filter dark:backdrop-blur-lg">
+        <div className="h-auto absolute bg-[#fffc] text-black backdrop-filter backdrop-blur-xl pb-5 w-full z-15 lg:hidden bg-transparent px-8 z-50 dark:text-white dark:bg-[#90939ed7] dark:backdrop-filter dark:backdrop-blur-lg">
           <a href="#home" className="block py-2 px-4 ">
             Home
           </a>
