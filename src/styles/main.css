@@ -789,7 +789,7 @@
     border-radius: 2px;
     background-color: rgba(148, 135, 135, 0.959);
     padding-left: 10px;
-    color: rgb(212, 212, 212);
+    color: #c0c0c0;
 }
 .email button{
     height: 27px;
