@@ -47,7 +47,7 @@ const Marcas = () => {
     <div className="h-48 p-10 gap-8  bg-gray-200 flex flex-col  dark:bg-gray-400 overflow-hidden">
         <div className='mt-[-25px] text-center'>
             <Puntitos />
-            <h1 className="text-2xl font-black float-left text-orange-600 font-pt-sans px-5">Nuestros comercios amigos</h1>
+            <h1 className="text-2xl font-black float-left text-orange-600 font-pt-sans px-5 dark:text-white">Nuestros comercios amigos</h1>
         </div>
       
         <Slider className=' ' {...settings}>
