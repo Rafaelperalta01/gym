@@ -1,7 +1,19 @@
 .slick-list{
-    padding-left: 150px;
+    margin: 0 auto;
+    padding-left: 150px; /*padding que tendra la caja que contiene los sponsors (para que se vea centrado)*/
 }
 .slick-slider {
-    width: 80%; /* Ajusta el ancho del slider según tus necesidades */
-    margin: 0 auto; /* Centra el slider en el contenedor */
-  }
+    width:100%; 
+    margin: 0 auto; 
+}
+/* medidas del padding según vaya bajando las medidas  */
+@media (max-width:1180px) {
+    .slick-list{
+        padding-left: 100px;
+    }
+}
+@media (max-width:845px) {
+    .slick-list{
+        padding-left: 70px;
+    }
+}

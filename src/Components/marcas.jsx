@@ -47,7 +47,7 @@ const Marcas = () => {
     <div className="h-48 p-10 gap-8  bg-gray-200 flex flex-col  dark:bg-gray-400 overflow-hidden">
         <div className='mt-[-25px] text-center'>
             <Puntitos />
-            <h1 className="text-2xl font-black float-left text-orange-600 font-pt-sans px-5 dark:text-white">Nuestros comercios amigos</h1>
+            <h1 className="text-2xl font-black float-left text-orange-600 font-pt-sans px-5 dark:text-white                                                                                            ">Nuestros comercios amigos</h1>
         </div>
       
         <Slider className=' ' {...settings}>
@@ -65,16 +65,16 @@ const Marcas = () => {
           </a>
         </div>
         <div  title="sin página">
-          <img className="h-10 w-auto" src="https://www.hammer.ar/image/comercio4.png" alt="" />
+          <img className="h-14 w-auto" src="https://www.hammer.ar/image/comercio4.png" alt="" />
         </div>
         <div  title="sin página">
-          <img className="h-10 w-auto" src="https://www.hammer.ar/image/comercio5.png" alt="" />
+          <img className="h-14 w-auto" src="https://www.hammer.ar/image/comercio5.png" alt="" />
         </div>
         <div  title="sin página">
-          <img className="h-10 w-auto " src="https://www.hammer.ar/image/comercio6.png" alt="" />
+          <img className="h-16 w-auto " src="https://www.hammer.ar/image/comercio6.png" alt="" />
         </div>
         <div  title="sin página">
-          <img className="h-10  w-auto" src="https://www.hammer.ar/image/comercio7.png" alt="" />
+          <img className="h-14  w-auto" src="https://www.hammer.ar/image/comercio7.png" alt="" />
         </div>
       </Slider>
 
