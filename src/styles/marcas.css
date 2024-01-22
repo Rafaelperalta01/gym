@@ -1,0 +1,7 @@
+.slick-list{
+    padding-left: 150px;
+}
+.slick-slider {
+    width: 80%; /* Ajusta el ancho del slider según tus necesidades */
+    margin: 0 auto; /* Centra el slider en el contenedor */
+  }

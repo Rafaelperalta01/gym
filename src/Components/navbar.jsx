@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import theme from '../images/theme.png';
 import Menu from './logomenu';
+import '../styles/animacionlinks.css'
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -21,13 +22,13 @@ const Navbar = () => {
         </div>
 
         <div className="hidden flex items-center font-tilt-neon text-black gap-10 lg:flex space-x-4 dark:text-white">
-          <a href="https://www.spartansgym.netlify.app" className="">
+          <a href="https://www.spartansgym.netlify.app" className="link">
             Home
           </a>
-          <a href="#about" className="">
+          <a href="#about" className="link">
             ¿Quiénes somos?
           </a>
-          <a href="#testi" className="">
+          <a href="#testi" className="link">
             Contacto
           </a>
           <a href="#testi" className=''>
@@ -64,7 +65,6 @@ const Navbar = () => {
           <div className='ml-4'>
                 <img onClick={toggleDarkMode} className="h-7 mt-2 cursor-pointer dark:invert" src={theme} alt="Theme" />
           </div>
-          
         </div>
       )}
     </nav>
@@ -72,65 +72,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-// {isMobileMenuOpen && (
-//     <div className="h-auto absolute bg-[#fff8] text-black backdrop-filter backdrop-blur-md py-2 w-full z-15 lg:hidden bg-transparent px-16 z-50 dark:text-white">
-//       <a href="#" className="block py-2 px-4 ">
-//         Home
-//       </a>
-//       <a href="#" className="block py-2 px-4 ">
-//         ¿Quiénes somos?
-//       </a>
-//       <a href="#" className="block py-2 px-4 ">
-//         Contacto
-//       </a>
-//       <a href="#" className="block py-2 px-4 ">
-//         Comenzar
-//       </a>
-//       <div className='ml-4'>
-//         <a href="#" className="">
-//             <img onClick={toggleDarkMode} className="h-7 mt-2 cursor-pointer dark:invert" src={theme} alt="Theme" />
-//         </a>
-//       </div>
-      
-//     </div>
-//   )}
-
-
-// import theme from '../images/theme.png'
-
-
-// const Navbar = () => {
-
-//     const toggleDarkMode = () => {
-//         document.documentElement.classList.toggle("dark");
-//       };
-    
-
-//     return(
-//         <nav data-aos="fade-down" className="h-12 flex justify-between items-center px-10 pr-14 z-10 ">
-//             <div>
-//                 <img className="h-6" src="https://www.hammer.ar/image/logohammerorange.png" alt="Logo" />
-//             </div>
-//             <div>
-//                 <ul className="flex gap-14 text-black font-tilt-neon dark:text-white">
-//                     <li className="hover:text-orange-500 cursor-pointer transition-colors duration-300 ease-in-out pt-2 z-10">
-//                         Home
-//                     </li>
-//                     <li className="hover:text-orange-500 cursor-pointer transition-colors duration-300 ease-in-out pt-2 z-10">
-//                         ¿Quiénes somos?
-//                     </li>
-//                     <li className="hover:text-orange-500 cursor-pointer transition-colors duration-300 ease-in-out pt-2 z-10">
-//                         Contacto
-//                     </li>
-                    
-//                         <button className="bg-orange-500 hover:bg-orange-700 text-white py-2 px-8 rounded transition-colors duration-300 z-10">
-//                             Comenzar
-//                         </button>
-//                     <img onClick={toggleDarkMode} className='h-7 mt-2 cursor-pointer dark:invert' src={theme} alt="Theme" />
-//                 </ul>
-//             </div>
-//         </nav>
-//     )
-// }
-
-// export default Navbar;
