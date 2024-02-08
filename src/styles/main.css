@@ -169,8 +169,8 @@
 }
 
 .serv .contenedor #servicio {
-    height: 250px;
-    width: 250px;
+    height: 210px;
+    width: 210px;
     border-radius: 0 20px 0 20px;
     background-color: azure;
     box-sizing: border-box;
@@ -371,12 +371,17 @@
     box-sizing: border-box;
 }
 
-.vermas-cont p {
+.vermas-cont h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 30px;
+}
+.vermas-cont p {
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
     color: #353535;
     text-align: center;
-    line-height: 1.5;
+    line-height: 1.9;
 }
 
 /* Tarjetas responsive*/

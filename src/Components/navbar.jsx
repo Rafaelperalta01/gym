@@ -15,10 +15,34 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="justify-between w-full dark:bg-gray-500  fixed z-50">
+    <nav className="justify-between w-full dark:bg-gradient-to-r from-gray-600 to-gray-900  fixed z-50">
       <div className="h-12 flex w-full bg-white justify-between items-center py-8 px-10 z-10 dark:bg-transparent ">
-        <div>
-          <img className="h-6" src="https://www.hammer.ar/image/logohammerorange.png" alt="Logo" />
+        <div className='flex gap-5 pt-2'>
+          <div title="sin página">
+            <img className="h-8 " src="https://www.hammer.ar/image/comercio1.png" alt="" />
+          </div>
+          <div >
+            <a className="cursor-pointer" href="https://gerf.com.ar" target="_blank" rel="noreferrer">
+              <img className="h-8 w-auto" src="https://www.hammer.ar/image/comercio2.png" alt="" />
+            </a>
+          </div>
+          <div >
+            <a className="cursor-pointer" href="https://confiterialaestrella.com" target="_blank" rel="noreferrer">
+              <img className="h-8 w-auto" src="https://www.hammer.ar/image/comercio3.png" alt="" />
+            </a>
+          </div>
+          <div title="sin página">
+            <img className="h-10 w-auto" src="https://www.hammer.ar/image/comercio4.png" alt="" />
+          </div>
+          <div title="sin página">
+            <img className="h-8 w-auto" src="https://www.hammer.ar/image/comercio5.png" alt="" />
+          </div>
+          <div title="sin página">
+            <img className="h-12 w-auto " src="https://www.hammer.ar/image/comercio6.png" alt="" />
+          </div>
+          <div title="sin página">
+            <img className="h-10  w-auto" src="https://www.hammer.ar/image/comercio7.png" alt="" />
+          </div>
         </div>
 
         <div className="hidden flex items-center font-tilt-neon text-black gap-10 lg:flex space-x-4 dark:text-white">
@@ -32,12 +56,12 @@ const Navbar = () => {
             Contacto
           </a>
           <a href="#testi" className=''>
-            <button  className="bg-orange-500 hover:bg-orange-700 text-white py-2 px-8 rounded transition-colors duration-300 z-10">
-                Comenzar
+            <button className="bg-orange-500 hover:bg-orange-700 text-white py-2 px-8 rounded transition-colors duration-300 z-10">
+              Comenzar
             </button>
           </a>
-          
-            <img onClick={toggleDarkMode} className="h-7 mt-2 cursor-pointer dark:invert" src={theme} alt="Theme" />
+
+          <img onClick={toggleDarkMode} className="h-7 mt-2 cursor-pointer dark:invert" src={theme} alt="Theme" />
 
         </div>
 
@@ -63,7 +87,7 @@ const Navbar = () => {
             Comenzar
           </a>
           <div className='ml-4'>
-                <img onClick={toggleDarkMode} className="h-7 mt-2 cursor-pointer dark:invert" src={theme} alt="Theme" />
+            <img onClick={toggleDarkMode} className="h-7 mt-2 cursor-pointer dark:invert" src={theme} alt="Theme" />
           </div>
         </div>
       )}

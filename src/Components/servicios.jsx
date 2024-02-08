@@ -85,13 +85,14 @@ const Servicios = () => {
             <img className='w-8 h-80 absolute top-10 left-0 dark:hidden' src={'https://www.hammer.ar/image/guiones1.png'} alt="Guiones" />
             <img className='w-8 h-80 absolute bottom-10 right-0 dark:hidden' src={'https://www.hammer.ar/image/guiones1.png'} alt="Guiones" />
         <div className='cont2' id='servs1' >
-            <h1 data-aos="fade-up">Nuestros servicios</h1>
+            <h1 data-aos="fade-up">Tus Actividades</h1>
             <p data-aos="fade-up">Explora un abanico de servicios diseñados para transformar tu experiencia de fitness. Desde entrenamientos personalizados hasta clases vibrantes, cada servicio en nuestra oferta está diseñado para llevar tu bienestar a nuevas alturas. Únete a nosotros y descubre cómo podemos personalizar tu viaje hacia una vida activa y saludable.</p>
             <div className='serv'>
                 <div className='contenedor'>
                     <div data-aos="fade-right" id='servicio' className='musculacion'><p>Musculación</p><a href="#vermas"><button onClick={verMusculacion}>Ver más</button></a></div>
                     <div data-aos="fade-right" id='servicio' className='cardio'><p>Cardio</p><a href="#vermas"><button onClick={verCardio}>Ver más</button></a></div>
                     <div data-aos="fade-left" id='servicio' className='yoga'><p>Yoga</p><a href="#vermas"><button onClick={verYoga}>Ver más</button></a></div>
+                    <div data-aos="fade-left" id='servicio' className='crossfit'><p>CrossFit</p><a href="#vermas"><button onClick={verCrossfit}>Ver más</button></a></div>
                     <div data-aos="fade-left" id='servicio' className='crossfit'><p>CrossFit</p><a href="#vermas"><button onClick={verCrossfit}>Ver más</button></a></div>
                 </div>
             </div>
