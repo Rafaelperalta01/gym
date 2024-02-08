@@ -48,7 +48,7 @@ const Main = () => {
                 <div className="flex relative  h-full justify-between px-10 pt-12 gap-5">
                     {/*Div con los textos*/}
                     <div data-aos="fade-right" className="w-1/2 flex flex-col pt-7 pl-10">
-                        <h1 className="text-9xl break-words font-bold text-black z-10 font-pt-sans dark:text-white">HAMMER X</h1>
+                        <h1 className="text-9xl break-words font-black text-orange-600 z-10 font-pt-sans dark:text-orange-600">HAMMER X</h1>
                         <p className="pt-8 text-base text-gray-600 z-10 font-montserrat dark:text-gray-300">Bienvenidos a nuestro sitio oficial. Todo lo que necesitas saber para entrenar con nosotros en un solo lugar.</p>
                         <div className="flex gap-10 pt-8 z-10">
                             <button className="font-open-sans bg-orange-500 hover:bg-orange-700 text-white py-2 px-8 rounded transition-colors duration-300 z-10">
@@ -80,4 +80,3 @@ const Main = () => {
 }
 
 export default Main;
-
