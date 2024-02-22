@@ -46,7 +46,7 @@ const Navbar = () => {
         </div>
 
         <div className="hidden flex items-center font-tilt-neon text-black gap-10 lg:flex space-x-4 dark:text-white">
-          <a href="https://www.spartansgym.netlify.app" className="link">
+          <a href="#!" className="link">
             Home
           </a>
           <a href="#about" className="link">

@@ -81,10 +81,12 @@ const Servicios = () => {
 
     return(
         <div className="main2 dark:bg-gradient-to-r from-gray-600 to-gray-900 bg-orange-500 relative">
-            <img className='w-full h-24 absolute top-0 dark:opacity-5' src={'https://www.hammer.ar/image/logohammerorange.png'} alt="Logo" />
+            {/* <img className='w-full h-24 absolute top-0 dark:opacity-5' src={'https://www.hammer.ar/image/logohammerorange.png'} alt="Logo" /> */}
             <img className='w-8 h-80 absolute top-10 left-0 dark:hidden' src={'https://www.hammer.ar/image/guiones1.png'} alt="Guiones" />
             <img className='w-8 h-80 absolute bottom-10 right-0 dark:hidden' src={'https://www.hammer.ar/image/guiones1.png'} alt="Guiones" />
         <div className='cont2' id='servs1' >
+            <div className='triangulo-l'></div>
+            <div className='triangulo-r'></div>
             <h1 data-aos="fade-up">Tus Actividades</h1>
             <p data-aos="fade-up">Explora un abanico de servicios diseñados para transformar tu experiencia de fitness. Desde entrenamientos personalizados hasta clases vibrantes, cada servicio en nuestra oferta está diseñado para llevar tu bienestar a nuevas alturas. Únete a nosotros y descubre cómo podemos personalizar tu viaje hacia una vida activa y saludable.</p>
             <div className='serv'>
