@@ -121,7 +121,7 @@
 
 
 .main2 {
-    padding: 130px 20px;
+    padding: 150px 20px;
     height: auto;
     /* background-color: #222222;
     background: linear-gradient(35deg,rgb(75, 75, 75),rgb(49, 49, 49)); */
@@ -209,9 +209,10 @@
 
 
 .serv .musculacion {
-    background: url('../images/musculacion.png');
+    background: url('https://www.hammer.ar/image/act-musculacion.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     text-align: center;
     color: white;
     font-size: 20px;
@@ -223,14 +224,15 @@
 }
 
 .serv .musculacion:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/musculacion.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.hammer.ar/image/act-musculacion.jpg');
     background-repeat: no-repeat;
+    background-position: left;
     background-size: cover;
     transform: scale(1.02);
 }
 
 .serv .cardio {
-    background: url('../images/cardio.png');
+    background: url('https://www.hammer.ar/image/salacardio.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -245,15 +247,15 @@
 }
 
 .serv .cardio:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/cardio.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.hammer.ar/image/salacardio.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right;
+    background-position: center;
     transform: scale(1.02);
 }
 
 .serv .yoga {
-    background: url('../images/yoga.png');
+    background: url('https://www.hammer.ar/image/clasesgrupales.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -268,17 +270,18 @@
 }
 
 .serv .yoga:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/yoga.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.hammer.ar/image/clasesgrupales.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right;
+    background-position: left;
     transform: scale(1.02);
 }
 
 .serv .crossfit {
-    background: url('../images/cross.png');
+    background: url('https://www.hammer.ar/image/bajoimpacto.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: left;
     text-align: center;
     color: white;
     font-size: 20px;
@@ -290,8 +293,31 @@
 }
 
 .serv .crossfit:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/cross.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.hammer.ar/image/bajoimpacto.jpg');
     background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    transform: scale(1.02);
+}
+.serv .kids {
+    background: url('https://www.hammer.ar/image/actividadeskids.jpg');
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
+    box-sizing: border-box;
+    transition: .5s !important;
+}
+
+.serv .kids:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.hammer.ar/image/actividadeskids.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     transform: scale(1.02);
 }

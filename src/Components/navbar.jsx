@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import theme from '../images/theme.png';
 import Menu from './logomenu';
 import '../styles/animacionlinks.css'
+import Marcas from './marcas';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -17,7 +18,8 @@ const Navbar = () => {
   return (
     <nav className="justify-between w-full dark:bg-gradient-to-r from-gray-600 to-gray-900  fixed z-50">
       <div className="h-12 flex w-full bg-white justify-between items-center py-8 px-10 z-10 dark:bg-transparent ">
-        <div className='flex gap-5 pt-2'>
+        <Marcas />
+        {/* <div className='flex gap-5 pt-2'>
           <div title="sin página">
             <img className="h-8 " src="https://www.hammer.ar/image/comercio1.png" alt="" />
           </div>
@@ -43,7 +45,7 @@ const Navbar = () => {
           <div title="sin página">
             <img className="h-10  w-auto" src="https://www.hammer.ar/image/comercio7.png" alt="" />
           </div>
-        </div>
+        </div> */}
 
         <div className="hidden flex items-center font-tilt-neon text-black gap-10 lg:flex space-x-4 dark:text-white">
           <a href="#!" className="link">

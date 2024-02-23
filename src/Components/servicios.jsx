@@ -93,9 +93,9 @@ const Servicios = () => {
                 <div className='contenedor'>
                     <div data-aos="fade-right" id='servicio' className='musculacion'><p>Musculación</p><a href="#vermas"><button onClick={verMusculacion}>Ver más</button></a></div>
                     <div data-aos="fade-right" id='servicio' className='cardio'><p>Cardio</p><a href="#vermas"><button onClick={verCardio}>Ver más</button></a></div>
-                    <div data-aos="fade-left" id='servicio' className='yoga'><p>Yoga</p><a href="#vermas"><button onClick={verYoga}>Ver más</button></a></div>
-                    <div data-aos="fade-left" id='servicio' className='crossfit'><p>CrossFit</p><a href="#vermas"><button onClick={verCrossfit}>Ver más</button></a></div>
-                    <div data-aos="fade-left" id='servicio' className='crossfit'><p>CrossFit</p><a href="#vermas"><button onClick={verCrossfit}>Ver más</button></a></div>
+                    <div data-aos="fade-left" id='servicio' className='yoga'><p>Clases grupales</p><a href="#vermas"><button onClick={verYoga}>Ver más</button></a></div>
+                    <div data-aos="fade-left" id='servicio' className='crossfit'><p>Bajo impacto</p><a href="#vermas"><button onClick={verCrossfit}>Ver más</button></a></div>
+                    <div data-aos="fade-left" id='servicio' className='kids'><p>Kids</p><a href="#vermas"><button onClick={verCrossfit}>Ver más</button></a></div>
                 </div>
             </div>
         </div>
