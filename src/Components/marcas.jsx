@@ -43,7 +43,7 @@ const Marcas = () => {
   };
 
   return (
-    <div className="h-12 mt-2  w-2/6  flex flex-col  dark:bg-gray-400 overflow-hidden">
+    <div className="h-12 mt-2  w-2/6  flex flex-col  dark:bg-transparent overflow-hidden">
       
         <Slider className=' ' {...settings}>
         <div  title="sin página">
