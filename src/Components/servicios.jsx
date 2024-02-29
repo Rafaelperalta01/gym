@@ -80,7 +80,7 @@ const Servicios = () => {
     };
 
     return(
-        <div className="main2 dark:bg-gradient-to-r from-gray-600 to-gray-800 bg-orange-500 relative">
+        <div id='tusactividades' className="main2 dark:bg-gradient-to-r from-gray-600 to-gray-800 bg-orange-500 relative">
             {/* <img className='w-full h-24 absolute top-0 dark:opacity-5' src={'https://www.hammer.ar/image/logohammerorange.png'} alt="Logo" /> */}
             <img className='w-8 h-80 absolute top-10 left-0 dark:hidden' src={'https://www.hammer.ar/image/guiones1.png'} alt="Guiones" />
             <img className='w-8 h-80 absolute bottom-10 right-0 dark:hidden' src={'https://www.hammer.ar/image/guiones1.png'} alt="Guiones" />
