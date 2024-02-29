@@ -35,7 +35,7 @@ const About1 = () => {
                                     </div>
                                 </div>
                                 <div className="w-full  sm:px-4 xl:w-auto">
-                                    <div className="relative h-96 z-10 my-4 ">
+                                    <div className="relative h-96 my-4 ">
                                         <img
                                             data-aos="fade-right"
                                             data-aos-duration="1800"
