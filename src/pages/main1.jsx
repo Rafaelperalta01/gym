@@ -2,6 +2,7 @@ import Aos from "aos";
 // import Circle from "../Components/circle";
 import ver from '../images/play.png'
 import { useEffect, useState } from "react";
+import FixedCard from "../Components/card";
 
 
 //metodo para incrementacion de números
@@ -67,6 +68,7 @@ const Main = () => {
                             </ul>
                         </div>
                     </div>
+                    <FixedCard />
                     {/*Div con el circulo naranja*/}
                     <div className=" w-full mr-[-40vw] z-10 h-full rounded-full bg-gradient-to-r from-orange-500 to-orange-900">
                         <img data-aos="fade-left" className="absolute bottom-0 right-0 w-auto h-full mb-[-50px] z-10 " src={'https://ragnar-gym.netlify.app/img/choose-img.png'} alt="Mina" />
