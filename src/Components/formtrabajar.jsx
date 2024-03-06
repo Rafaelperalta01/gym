@@ -48,23 +48,23 @@ const Formtrabajar = ({ isOpen, onClose }) => {
           </svg>
         </button>
         <h2 className="text-lg font-bold mb-4 text-orange-500">¡Quiero formar parte del equipo Hammer!</h2>
-        <form className='bg-orange-600 p-5' onSubmit={handleSubmit}>
-          <div className="mb-2">
-            <input type="text" id="nombreCompleto" name="nombreCompleto" value={formData.nombreCompleto} onChange={handleChange} className="border border-gray-400 rounded p-1 pl-3 w-full" placeholder="Nombre Completo" />
+        <form className='bg-orange-600 p-5 text-sm' onSubmit={handleSubmit}>
+          <div className="mb-3">
+            <input type="text" id="nombreCompleto" name="nombreCompleto" value={formData.nombreCompleto} onChange={handleChange} className=" border border-gray-400 rounded p-1 pl-3 w-full" placeholder="Nombre Completo" />
           </div>
-          <div className="mb-2">
+          <div className="mb-3">
             <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} className="border border-gray-400 rounded p-1 pl-3 w-full" placeholder="Email" />
           </div>
-          <div className="mb-2">
+          <div className="mb-3">
             <input type="text" id="celular" name="celular" value={formData.celular} onChange={handleChange} className="border border-gray-400 rounded p-1 pl-3 w-full" placeholder="Número de Celular" />
           </div>
-          <div className="mb-2">
+          <div className="mb-3">
             <input type="text" id="edad" name="edad" value={formData.edad} onChange={handleChange} className="border border-gray-400 rounded p-1 pl-3 w-full" placeholder="Edad" />
           </div>
-          <div className="mb-2">
+          <div className="mb-3">
             <input type="text" id="instagram" name="instagram" value={formData.instagram} onChange={handleChange} className="border border-gray-400 rounded p-1 pl-3 w-full" placeholder="Instagram" />
           </div>
-          <div className="mb-2">
+          <div className="mb-3">
             <select name="puesto" value={formData.puesto} onChange={handleChange} className="border border-gray-400 rounded p-1  w-full">
               <option value="">Quiero trabajar de:</option>
               <option value="Recepcionista">Recepcionista</option>
@@ -77,14 +77,14 @@ const Formtrabajar = ({ isOpen, onClose }) => {
               <option value="Otro">Otro</option>
             </select>
           </div>
-          <div className="mb-2">
+          <div className="mb-3">
             <select name="sede" value={formData.sede} onChange={handleChange} className="border border-gray-400 rounded p-1  w-full">
               <option value="">Sede:</option>
               <option value="Concepción">Concepción</option>
               <option value="Monteros">Monteros</option>
             </select>
           </div>
-          <div className="mb-2">
+          <div className="mb-3">
             <textarea id="presentacion" name="presentacion" value={formData.presentacion} onChange={handleChange} className="border border-gray-400 rounded px-3 py-2 w-full" placeholder="Cuéntanos un poco sobre ti en menos de 100 palabras" rows="4" maxLength="100"></textarea>
           </div>
           <button type="submit" className="bg-gray-100 text-black px-4 py-2 rounded hover:bg-gray-200">Enviar</button>
