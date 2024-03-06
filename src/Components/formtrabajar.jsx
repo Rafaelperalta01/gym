@@ -85,7 +85,7 @@ const Formtrabajar = ({ isOpen, onClose }) => {
             </select>
           </div>
           <div className="mb-3">
-            <textarea id="presentacion" name="presentacion" value={formData.presentacion} onChange={handleChange} className="border border-gray-400 rounded px-3 py-2 w-full" placeholder="Cuéntanos un poco sobre ti en menos de 100 palabras" rows="4" maxLength="100"></textarea>
+            <textarea id="presentacion" name="presentacion" value={formData.presentacion} onChange={handleChange} className="border border-gray-400 rounded px-3 py-2 w-full" placeholder="Contanos un poco sobre vos en menos de 100 palabras" rows="4" maxLength="100"></textarea>
           </div>
           <button type="submit" className="bg-gray-100 text-black px-4 py-2 rounded hover:bg-gray-200">Enviar</button>
         </form>
