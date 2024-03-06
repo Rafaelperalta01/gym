@@ -30,6 +30,9 @@ const Servicios = () => {
     const verCrossfit = () => {
         setServicio('crossfit')
     }
+    const verKids = () => {
+        setServicio('kids')
+    }
     const cerrarVentana = () => {
         setServicio('')
     }
@@ -95,7 +98,7 @@ const Servicios = () => {
                     <div data-aos="fade-right" id='servicio' className='cardio'><p>Cardio</p><a href="#vermas"><button onClick={verCardio}>Ver más</button></a></div>
                     <div data-aos="fade-left" id='servicio' className='yoga'><p>Clases grupales</p><a href="#vermas"><button onClick={verYoga}>Ver más</button></a></div>
                     <div data-aos="fade-left" id='servicio' className='crossfit'><p>Bajo impacto</p><a href="#vermas"><button onClick={verCrossfit}>Ver más</button></a></div>
-                    <div data-aos="fade-left" id='servicio' className='kids'><p>Kids</p><a href="#vermas"><button onClick={verCrossfit}>Ver más</button></a></div>
+                    <div data-aos="fade-left" id='servicio' className='kids'><p>Kids</p><a href="#vermas"><button onClick={verKids}>Ver más</button></a></div>
                 </div>
             </div>
         </div>
@@ -117,7 +120,7 @@ const Servicios = () => {
                                 </div>
                                 <div className='vermas-cont'>
                                     <h1>Musculación</h1>
-                                    <p>Nuestros servicios de musculación van más allá de levantar pesas; son una invitación a la transformación física y al empoderamiento personal. Desde rutinas personalizadas hasta un amplio abanico de máquinas de última generación, te proporcionamos todo lo que necesitas para alcanzar tus objetivos de fuerza y definición muscular.</p>
+                                    <p>¿Primera vez entrenando o ya contas con experiencia? No te preocupes, porque en nuestros salones de musculación vas a contar con una gran variedad y calidad de máquinas y pesos libres para entrenar la fuerza, aumentar la musculatura y tonificar el cuerpo. Siempre guiad@ por nuestros instructores y además dispondrás de diferentes rutinas pensadas para que arranques de 0 y para desafiarte todos los días.</p>
                                 </div>
                             </div>
                         </div>
@@ -144,7 +147,7 @@ const Servicios = () => {
                                 </div>
                                 <div className='vermas-cont'>
                                     <h1>Cardio</h1>
-                                    <p>Únete a nuestra comunidad de amantes del cardio, donde cada latido cuenta y cada sesión te acerca a un estado físico y mental óptimo. Experimenta cómo el cardio no solo mejora tu salud cardiovascular, sino que también libera la tensión diaria, fortalece tu resistencia y te impulsa hacia un estilo de vida activo y saludable.</p>
+                                    <p>¿Pensas que hacer cardio es aburrido? Con nuestro plan de musculacion tambien tendrás a disposición todos nuestros equipos de cardio, cintas, bicis, elípticos, remos, airbikes, entre otros, para que elijas el más divertido y apto para vos, con los que podras quemar todas las calorías que te propongas, o bien para calentar un ratito antes de comenzar tu rutina.</p>
                                 </div>
                             </div>
                         </div>
@@ -170,8 +173,8 @@ const Servicios = () => {
                                     <a href="#servs1"><img src={close} className='img-close' onClick={cerrarVentana} alt="Cerrar Ventana" /></a>
                                 </div>
                                 <div className='vermas-cont'>
-                                    <h1>Yoga</h1>
-                                    <p>En este espacio sagrado, nuestros instructores certificados te guiarán a través de respiraciones conscientes, movimientos fluidos y la búsqueda de la paz interior. La filosofía del yoga se entrelaza con cada sesión, promoviendo la flexibilidad, el equilibrio y la conexión con tu yo más profundo.</p>
+                                    <h1>Clases grupales</h1>
+                                    <p>¿Y si probas entrenando en compañía con nuestras clases grupales? Crossfit, Funcional, Zumba, Aerobics y muchas otras actividades para que puedas elegir según tu gusto y tus objetivos, siempre vas a tener a tu disposición coachs que te van a orientar para que arranques desde el nivel más básico o para perfeccionarte si ya contas con experiencia previa. ¡Consulta las clases disponibles en tu sede! Si sentís que las actividades individuales no son para vos aquí encontraras tu lugar 😀</p>
                                 </div>
                             </div>
                         </div>
@@ -198,8 +201,8 @@ const Servicios = () => {
                                     <a href="#servs1"><img src={close} className='img-close' onClick={cerrarVentana} alt="Cerrar Ventana" /></a>
                                 </div>
                                 <div className='vermas-cont'>
-                                    <h1>CrossFit</h1>
-                                    <p>En la sección de CrossFit, sumérgete en una experiencia única que redefine los límites de tu rendimiento físico y mental. Nuestros programas de CrossFit no solo son entrenamientos, son desafíos que te inspirarán a superar tus propios límites día tras día. Cada sesión está diseñada para construir fuerza, resistencia y agilidad.</p>
+                                    <h1>Salas de clases de bajo impacto</h1>
+                                    <p>¿Sabías que también contamos con clases de bajo impacto? Pilates, Yoga y talleres para 3era edad (consulta las disponibles en tu sede). Vas a trabajar sin impacto para fortalecer todo tu cuerpo, mejorar postura y recuperar la movilidad perdida. Son ideales para aumentar la fuerza y flexibilidad, rehabilitarte de lesiones, complementar y especializarte en otras actividades y para conectar la mente con tu cuerpo 🧘</p>
                                 </div>
                             </div>
                         </div>
@@ -207,7 +210,33 @@ const Servicios = () => {
                 </>
 
             )
+        }
+        {
+            servicio === 'kids' && (
+                <>
+                    <div id='vermas' className='espacio'></div> {/*Div da espacio entre la caja y el nav, para que no se vea encimado*/}
+                    <div className='vermas'>
+                        <div className='verMasMusc'>
+                            <a href="#servs1"><img src={close} className='img-close' onClick={cerrarVentana} alt="Cerrar Ventana" /></a>
+                            <div className='vermasbox'>
+                                <div className='images'style={{ backgroundImage: `url(${fondocrossfit})` }}>
+                                    <ul>
+                                        <li onClick={cambiarFonduCross}></li>
+                                        <li onClick={cambiarFonduCross2}></li>
+                                        <li onClick={cambiarFonduCross3}></li>
+                                    </ul>
+                                    <a href="#servs1"><img src={close} className='img-close' onClick={cerrarVentana} alt="Cerrar Ventana" /></a>
+                                </div>
+                                <div className='vermas-cont'>
+                                    <h1>Actividades Kids</h1>
+                                    <p>¿Sabías lo importante que es la actividad física en los niños? Por eso contamos con diferentes actividades grupales para ellos. Todas están guiadas por profes y pensadas para divertirse, y para acompañar su desarrollo tanto físico como social, desde las etapas más tempranas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </>
 
+            )
         }
     </div>
     )
