@@ -93,7 +93,6 @@ const FixedCard = () => {
                 </div>
               )}
               <li className='cursor-pointer linkbox transition hover:text-gray-200' onClick={handleOpenJobForm}>Quiero trabajar con ustedes</li>
-              <li className='cursor-pointer linkbox transition hover:text-gray-200' onClick={handleOpenFreeClassForm}>Quiero una clase gratis</li>
             </ul>
           </div>
         ) : null}
